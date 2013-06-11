@@ -3,10 +3,21 @@
   <title>Jon de la Motte</title>
   <meta name="author" content="Jon de la Motte">
   <meta name="description" content="A personal site for Jon de la Motte">
-
+  
+  <!------- CSS -------->
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
-
+  
+  <!------------------------------>
+  <!-- start Mixpanel Analytics -->
+  <!------------------------------>
+  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+  mixpanel.init("353879954b139c77cb6845e8f1b22f39");</script>
+  <!------------------>
+  <!-- end Mixpanel -->
+  <!------------------>
 </head>
 <body>
   <div id="wrapper">
@@ -23,6 +34,6 @@
     </section>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 </html>

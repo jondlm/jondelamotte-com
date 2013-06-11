@@ -1,4 +1,5 @@
 function autorun() { // Main exec function
+  // Strict mode, yes please!
   'use strict';
 
   // Once my name shows up, animate the other boxes
@@ -31,7 +32,7 @@ function autorun() { // Main exec function
     selected = contactElem;
     addClass('selected', contactElem);
     swapContent(swappable, 'partial/contact.html');
-  }, false);
+  }, false); 
 
 }
 

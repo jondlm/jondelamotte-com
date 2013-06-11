@@ -1,0 +1,19 @@
+{
+  "name": "jondelamotte.com",
+  "version": "0.0.0",
+  "description": "A personal website for Jon de la Motte.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/jondlm/jondelamotte.com.git"
+  },
+  "author": "jondlm@gmail.com",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.4.4"
+  }
+}
