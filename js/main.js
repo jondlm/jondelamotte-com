@@ -2,6 +2,9 @@ function autorun() { // Main exec function
   // Strict mode, yes please!
   'use strict';
 
+  // #Analytics
+  mixpanel.track('Visited landing page');
+
   // Once my name shows up, animate the other boxes
   var name = document.getElementById('myName');
   var aboutElem = document.getElementById('about');
@@ -17,6 +20,8 @@ function autorun() { // Main exec function
 
   // add content swap event listeners
   aboutElem.addEventListener('click', function() {
+    // #Analytics
+    mixpanel.track('Visited about page');
     if (selected) {
       removeClass('selected', selected);
     }
@@ -26,6 +31,8 @@ function autorun() { // Main exec function
   }, false);
 
   contactElem.addEventListener('click', function() {
+    // #Analytics
+    mixpanel.track('Visited contact page');
     if (selected) {
       removeClass('selected', selected);
     }
