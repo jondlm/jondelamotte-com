@@ -20,8 +20,10 @@ function autorun() { // Main exec function
 
   // add content swap event listeners
   aboutElem.addEventListener('click', function() {
+
     // #Analytics
     mixpanel.track('Visited about page');
+
     if (selected) {
       removeClass('selected', selected);
     }
@@ -31,8 +33,10 @@ function autorun() { // Main exec function
   }, false);
 
   contactElem.addEventListener('click', function() {
+
     // #Analytics
     mixpanel.track('Visited contact page');
+    
     if (selected) {
       removeClass('selected', selected);
     }
@@ -46,9 +50,12 @@ function autorun() { // Main exec function
 function doAnimate() {
   'use strict';
   // Get all the things that should animate second
-  var e = document.querySelectorAll('.navItem');
+  var e = document.querySelectorAll('.loadHide');
   var animName;
   var oldClasses;
+
+  // Add music boxes
+  addMusicBox();
 
   // loop through them all, get their data attr and apply that as a class
   // also make them unhidden
@@ -107,7 +114,7 @@ function getHTTPObject() {
   if (window.XMLHttpRequest) {
     xhr = new XMLHttpRequest();
   } else if (window.ActiveXObject) {
-    xhr = new ActiveXObject('Msxml2.XMLHTTP');
+    xhr = new ActiveXObject('Msxml2.XMLHTTP'); 
   }
   return xhr;
 }
@@ -117,6 +124,42 @@ function swapContent(target, file) {
   ajax(file, function(res) {
     target.innerHTML = res;
   });
+}
+
+function addMusicBox() {
+  'use strict';
+
+  var parent = document.getElementById('music');
+
+  ajax('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jondlm&api_key=8a1f0fc68c0f252d3d0fa202020d5f76&format=json',
+    function(d){
+      var tracks = JSON.parse(d).recenttracks.track;
+
+      // only grab the top recent tracks
+      for (var i = 0; i < tracks.length ; i++) {
+        var newBox;
+
+        if (tracks[i]['@attr'] && tracks[i]['@attr'].nowplaying === "true"){
+          newBox  = '<div class="musicBox">';
+          newBox += '<img class="albumArt" src="'+ tracks[i].image[1]['#text'] +'" alt="">';
+          newBox += '<span class="t">Track: </span><span>'+ tracks[i].name +'</span><br>';
+          newBox += '<span class="t">Artist: </span><span>'+ tracks[i].artist['#text'] +'</span><br>';
+          newBox += '<img src="img/listening.gif" alt="" />';
+          newBox += '<span class="t"> Now listening!</span>';
+          newBox += '</div>';
+        } else {
+          newBox  = '<div class="musicBox">';
+          newBox += '<img class="albumArt" src="'+ tracks[i].image[1]['#text'] +'" alt="">';
+          newBox += '<span class="t">Track: </span><span>'+ tracks[i].name +'</span><br>';
+          newBox += '<span class="t">Artist: </span><span>'+ tracks[i].artist['#text'] +'</span><br>';
+          newBox += '<span class="t">Listened: </span><span>'+ moment.utc(tracks[i].date['#text'], 'DD MMM YYYY, hh:mm').local().fromNow() +'</span><br>';
+          newBox += '</div>';
+        }
+
+        parent.innerHTML += newBox;
+      };
+    }
+  );
 }
 
 

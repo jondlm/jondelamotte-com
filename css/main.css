@@ -20,6 +20,9 @@ h2 {
   text-decoration: none;
   color: black;
 }
+body {
+  font-family: 'Lato', sans-serif;
+}
 #wrapper {
   width: 768px;
   margin: 0 auto;
@@ -27,7 +30,7 @@ h2 {
   text-align: center;
 }
 #swappable {
-  margin-top: 95px;
+  margin-top: 60px;
   font-family: 'Lato', sans-serif;
   color: black;
   text-align: left;
@@ -73,6 +76,32 @@ h2 {
 }
 .selected {
   background: darkgrey;
+}
+
+.centered {
+  margin: 0 auto 0 auto;
+}
+
+/******************************************
+                MUSIC BOX
+*******************************************/
+.musicBox {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  width: 234px;
+  border: 1px solid black;
+  border-radius: 7px 7px 7px 7px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  font-size: 0.7em;
+}
+.musicBox .t {
+  font-weight: bold;
+}
+.musicBox .albumArt {
+  float: right;
 }
 
 
