@@ -6,16 +6,23 @@ module.exports = function(grunt) {
   grunt.initConfig({
     uglify: {
       options: {
-        sourceMap: 'js/source-map.js',
+        sourceMap: 'source-map.js',
         banner: '// By: Jon de la Motte\n' + 
                 '// On: ' + new Date() + '\n' +
                 '// \n' +
                 '// 3rd party libraries:\n' +
-                '//   Moment.js - v2.0.0 - momentjs.com\n\n'
+                '//   Angular.js - v1.5.1 - angularjs.org\n' +
+                '//   Foundation.js - v4.2.2 - foundation.zurb.com\n' +
+                '//   Moment.js - v2.0.0 - momentjs.com\n'
       },
       main: {
         files: {
-          'js/package.min.js': ['js/moment.js', 'js/main.js' ]
+          'js/package.min.js': [
+            'js/vendor/angular.js',
+            'js/vendor/foundation.min.js',
+            'js/vendor/moment.js',
+            'js/vendor/mixpanel.js'
+          ]
         }
       }
     },

@@ -1,47 +1,67 @@
-<html>
+<html ng-app>
 <head>
   <title>Jon de la Motte</title>
-  <meta name="author" content="Jon de la Motte">
-  <meta name="description" content="A personal site for Jon de la Motte">
-  
+  <meta name="viewport" content="width=device-width" />
+  <meta name="author" content="Jon de la Motte" />
+  <meta name="description" content="A personal site for Jon de la Motte" />
+
+  <!-------------------->
   <!------- CSS -------->
+  <!-------------------->
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
-  
-  <!------------------------------>
-  <!-- start Mixpanel Analytics -->
-  <!------------------------------>
-  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
-  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
-  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
-  mixpanel.init("353879954b139c77cb6845e8f1b22f39");</script>
-  <!------------------>
-  <!-- end Mixpanel -->
-  <!------------------>
+  <link rel="stylesheet" href="css/foundation.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+
 </head>
 <body>
-  <div id="wrapper">
-    <header>
-      <h1 id="myName" class="clear animated fadeIn">Jon de la Motte</h1>
-    </header>
-    <nav>
-      <a id="about" href="#" class="navItem loadHide left animated hidden" data-anim="fadeIn">About</a>
-      <a id="contact" href="#" class="navItem loadHide left animated hidden" data-anim="fadeIn">Contact</a>
-      <a href="http://www.csgpro.com/Blogs/author/jond.aspx" class="navItem loadHide left animated hidden" data-anim="fadeIn">Blog</a>
-      <a href="http://www.linkedin.com/pub/jonathan-de-la-motte/12/921/886" class="navItem loadHide left animated hidden" data-anim="fadeIn">LinkedIn</a>
+  <!-- <img src="img/jondelamotte.png" alt=""> -->
+    <nav class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1>
+            <a href="#">
+              <img id="title" src="img/jondelamotte.png" alt="Jon de la Motte's name in cursive">
+            </a>
+          </h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="#">Item</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </ul>
+      </section>
+      
     </nav>
-    <br>
-    
-    <section id="swappable">
-      <div style="text-align:center;">
-        <h2 class="animated loadHide hidden" data-anim="fadeIn">Real-time Music</h2><br>
-        <section id="music"></section>
-      </div>  
+    <section ng-controller="IndexCtrl">
+
+      <h1>{{hello}}</h1>
+
     </section>
   </div>
 
-  <!-- Moment JS 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script> -->
+  <!------------------------------>
+  <!--    JavaScript Section    -->
+  <!------------------------------>
+  <script>
+    document.write('<script src=' +
+    ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+    '.js><\/script>')
+  </script>
+
   <script src="js/package.min.js"></script>
+  <script src="js/controllers/IndexCtrl.js"></script>
+  
+  <!------------------------------>
+  <!--      Load Foundation     -->
+  <!------------------------------>
+  <script>
+    $(document).foundation();
+  </script>
+
 </body>
 </html>
