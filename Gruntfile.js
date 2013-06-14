@@ -26,7 +26,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    watch: {
+    watch: { // TODO fix the watch, structure has changed from when I wrote this
       scripts: {
         files: ['js/main.js'],
         tasks: ['default']

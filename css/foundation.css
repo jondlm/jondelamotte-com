@@ -10,11 +10,11 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  /*background: white;*/
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1061,7 +1061,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
   font-weight: bold;
   font-style: normal;
   color: #222222;
@@ -2626,7 +2626,7 @@ form.custom {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #111111;
+  /*background: #111111;*/
   margin-bottom: 1.875em; }
   .top-bar ul {
     margin-bottom: 0;
@@ -2715,7 +2715,7 @@ form.custom {
     width: 100%;
     height: auto;
     display: block;
-    background: #222222;
+    /*background: #222222;*/
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -2728,12 +2728,13 @@ form.custom {
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: white;
+    color: black;
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-size: 0.8125em;
     font-weight: bold;
-    background: #222222; }
+    /*background: #222222;*/
+  }
     .top-bar-section ul li > a.hover {
       background: #090909;
       color: white; }
@@ -2858,9 +2859,11 @@ form.custom {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #111111; }
+      /*background: #111111; */
+    }
       .top-bar-section li a:not(.button).hover {
-        background: black; }
+        /*background: black; */
+      }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {

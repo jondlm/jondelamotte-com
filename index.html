@@ -1,4 +1,4 @@
-<html ng-app>
+<html ng-app="jonApp">
 <head>
   <title>Jon de la Motte</title>
   <meta name="viewport" content="width=device-width" />
@@ -15,33 +15,29 @@
 
 </head>
 <body>
-  <!-- <img src="img/jondelamotte.png" alt=""> -->
-    <nav class="top-bar">
-      <ul class="title-area">
-        <li class="name">
-          <h1>
-            <a href="#">
-              <img id="title" src="img/jondelamotte.png" alt="Jon de la Motte's name in cursive">
-            </a>
-          </h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  <nav class="top-bar">
+    <ul class="title-area">
+      <li class="name">
+        <h1>
+          <a href="#">
+            <img id="title" src="img/jondelamotte.png" alt="Jon de la Motte's name in cursive">
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <ul class="right">
+        <li><a href="#/contact">About</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
       </ul>
-
-      <section class="top-bar-section">
-        <ul class="right">
-          <li><a href="#">Item</a></li>
-          <li><a href="#">Item 2</a></li>
-          <li><a href="#">Item 3</a></li>
-        </ul>
-      </section>
-      
-    </nav>
-    <section ng-controller="IndexCtrl">
-
-      <h1>{{hello}}</h1>
-
     </section>
+    
+  </nav>
+  <div class="row" ng-view>
+    
   </div>
 
   <!------------------------------>
@@ -54,6 +50,8 @@
   </script>
 
   <script src="js/package.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/factories/lastFmFactory.js"></script>
   <script src="js/controllers/IndexCtrl.js"></script>
   
   <!------------------------------>
