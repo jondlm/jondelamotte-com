@@ -5,7 +5,7 @@ var jonApp = angular.module('jonApp', []);
 jonApp.config(function ($routeProvider) {
 
   $routeProvider
-    .when('/music', {
+    .when('/', {
       controller: 'IndexCtrl',
       templateUrl: 'partial/music.html'
     })
@@ -16,6 +16,10 @@ jonApp.config(function ($routeProvider) {
     .when ('/contact', {
       controller: 'IndexCtrl',
       templateUrl: 'partial/contact.html'
+    })
+    .when('/blog', {
+      controller: 'IndexCtrl',
+      templateUrl: 'partial/blog.html'
     })
     .otherwise( {redirectTo: '/'} );
 

@@ -2684,20 +2684,19 @@ form.custom {
         height: 34px;
         line-height: 33px;
         padding: 0;
-        color: white; }
+        color: black; }
         .top-bar .toggle-topbar.menu-icon a span {
           position: absolute;
           right: 0;
           display: block;
           width: 16px;
           height: 0;
-          -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
-          box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
+          -webkit-box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
+          box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black; }
   .top-bar.expanded {
     height: auto;
     background: transparent; }
-    .top-bar.expanded .title-area {
-      background: #111111; }
+    .top-bar.expanded .title-area {}
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span {
