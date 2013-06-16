@@ -1,0 +1,1987 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newBox"
+			],
+			[
+				"add",
+				"addMusicBox"
+			],
+			[
+				"music",
+				"musicData"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"chartbyhours",
+				"chartByHoursElement"
+			],
+			[
+				"chartbyda",
+				"chartByDaysElement"
+			],
+			[
+				"pie",
+				"pieChartOrderTypeElement"
+			],
+			[
+				"contin",
+				"continuationToken"
+			],
+			[
+				"chartby",
+				"chartByHours"
+			],
+			[
+				"fil",
+				"filterAll"
+			],
+			[
+				"char",
+				"chartByDays"
+			],
+			[
+				"chartBy",
+				"chartByHours"
+			],
+			[
+				"dimhour",
+				"dimHourCount"
+			],
+			[
+				"reduce",
+				"reduceCount"
+			],
+			[
+				"dimWeek",
+				"dimWeekCount"
+			],
+			[
+				"min",
+				"minMaxDates"
+			],
+			[
+				"pro",
+				"propertyName"
+			],
+			[
+				"chart",
+				"chartByWeeks"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"chartb",
+				"chartByDays"
+			],
+			[
+				"group",
+				"groupAll"
+			],
+			[
+				"dimor",
+				"dimOrderTypeCount"
+			],
+			[
+				"test",
+				"testData"
+			],
+			[
+				"dimcat",
+				"dimCategoryCount"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"dimdate",
+				"dimDateCount"
+			],
+			[
+				"line",
+				"lineChart"
+			],
+			[
+				"linech",
+				"lineChartElement"
+			],
+			[
+				"pi",
+				"pieChartElement"
+			],
+			[
+				"fake",
+				"fakeData"
+			],
+			[
+				"fa",
+				"fakeData"
+			],
+			[
+				"ini",
+				"initialized"
+			],
+			[
+				"in",
+				"initialized"
+			],
+			[
+				"ch",
+				"chartCountOfRecords"
+			],
+			[
+				"cl",
+				"clientWidth"
+			],
+			[
+				"cha",
+				"chartCountOfRecordsElement"
+			],
+			[
+				"dimD",
+				"dimDateCount"
+			],
+			[
+				"init",
+				"initDisplays"
+			],
+			[
+				"dimDat",
+				"dimDateCount"
+			],
+			[
+				"con",
+				"continuation"
+			],
+			[
+				"last",
+				"lastUpdate"
+			],
+			[
+				"fir",
+				"firstLoad"
+			],
+			[
+				"lt",
+				"length"
+			],
+			[
+				"update",
+				"updateUi"
+			],
+			[
+				"nex",
+				"nextPage"
+			],
+			[
+				"nextPa",
+				"nextPartitionKey"
+			],
+			[
+				"io",
+				"ioServer"
+			],
+			[
+				"stor",
+				"storageKey"
+			],
+			[
+				"elas",
+				"elapsedTime"
+			],
+			[
+				"sql",
+				"sqlRequest"
+			],
+			[
+				"tab",
+				"tableFiltered"
+			],
+			[
+				"measure",
+				"measureEnd"
+			],
+			[
+				"meas",
+				"measureStart"
+			],
+			[
+				"callby",
+				"callsByDroppedChart"
+			],
+			[
+				"container",
+				"containerWidth"
+			],
+			[
+				"calls",
+				"callsByDayChart"
+			],
+			[
+				"techno",
+				"Technologies"
+			],
+			[
+				"first",
+				"firstCalled"
+			],
+			[
+				"lastWeek",
+				"lastWeekButton"
+			],
+			[
+				"thisWeek",
+				"thisWeekButton"
+			],
+			[
+				"render",
+				"renderAll"
+			],
+			[
+				"end",
+				"endOfWeek"
+			],
+			[
+				"start",
+				"startOfWeek"
+			],
+			[
+				"refresh",
+				"refreshTiles"
+			],
+			[
+				"total",
+				"totalDropped"
+			],
+			[
+				"find",
+				"findBiggestDate"
+			],
+			[
+				"appen",
+				"appendContent"
+			],
+			[
+				"calls-by-d",
+				"calls-by-day-chart"
+			],
+			[
+				"callsb",
+				"callsByDroppedChart"
+			],
+			[
+				"dayof",
+				"dayOfWeeks"
+			],
+			[
+				"crossfil",
+				"crossfilterData"
+			],
+			[
+				"dim",
+				"dimension"
+			],
+			[
+				"dropp",
+				"droppedCallsGroup"
+			],
+			[
+				"Drop",
+				"droppedCalls"
+			],
+			[
+				"drop",
+				"droppedCallsGroup"
+			],
+			[
+				"sampl",
+				"sampleCall"
+			],
+			[
+				"gener",
+				"generateCalls"
+			],
+			[
+				"cont",
+				"contactElem"
+			],
+			[
+				"class",
+				"classArr"
+			],
+			[
+				"sw",
+				"swappable"
+			],
+			[
+				"about",
+				"aboutElem"
+			],
+			[
+				"swa",
+				"swapContent"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"cert",
+				"certificate"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"same",
+				"sampleCall"
+			],
+			[
+				"sam",
+				"sampleCall"
+			],
+			[
+				"fi",
+				"firstCalled"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"Qu",
+				"QUANTITY_INVOICED"
+			],
+			[
+				"gl",
+				"GlAccountSK"
+			],
+			[
+				"vot",
+				"VoteFrequency4"
+			],
+			[
+				"sat",
+				"StateSenateDistrict"
+			],
+			[
+				"INVG_",
+				"INVG0_Item_Costs"
+			],
+			[
+				"current",
+				"currentTile"
+			],
+			[
+				"curr",
+				"currentChart"
+			],
+			[
+				"remove",
+				"remove"
+			],
+			[
+				"cu",
+				"currentChart"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"curren",
+				"currentData"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"draw",
+				"drawChart"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"dr",
+				"drawAllCharts"
+			],
+			[
+				"est",
+				"EstimatedIncome"
+			],
+			[
+				"es",
+				"EstimatedIncome"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"page",
+				"pageAttr"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"data",
+				"dataArray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 1974,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 85.0,
+		"selected_items":
+		[
+			[
+				"ss javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"new fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				":new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"open ",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"ss sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ss xml",
+				"Set Syntax: XML"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html ",
+				"Tidy HTML"
+			],
+			[
+				"ss ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"sssty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ss scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"keycon",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"confl",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"block",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"instalp",
+				"Package Control: Install Package"
+			],
+			[
+				"installpack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":",
+				":$ - EOF"
+			],
+			[
+				"packack",
+				"Package Control: Remove Package"
+			],
+			[
+				"path",
+				"File: Copy Path From Project"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packconinst",
+				"Package Control: Install Package"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sspl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ssplain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"findk",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"instlp",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"linter",
+				"SublimeLinter: Reset"
+			],
+			[
+				"paclist",
+				"Package Control: List Packages"
+			],
+			[
+				"pack contr",
+				"Package Control: List Packages"
+			],
+			[
+				"ssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"inpac",
+				"Package Control: Install Package"
+			],
+			[
+				"insal p",
+				"Package Control: Install Package"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"convert ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"pack in	",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"end line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tab s",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sq",
+				"FormatSQL: Format SQL statement"
+			],
+			[
+				"formjs",
+				"Format: Javascript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"emmet sel",
+				"Emmet: Select Next Item"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"js",
+				"Format: Javascript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tfs",
+				"TFS: Status"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Format: Javascript"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"bro p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"bpack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ss c",
+				"Set Syntax: C#"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"packa	",
+				"Package Control: Install Package"
+			],
+			[
+				"sssl",
+				"Set Syntax: SQL"
+			],
+			[
+				"set syn",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/dev/jondelamotte.com/css/foundation.css",
+		"/D/dev/jondelamotte.com/css/main.css",
+		"/D/dev/jondelamotte.com/index.html",
+		"/D/dev/jondelamotte.com/js/factories/lastFmFactory.js",
+		"/D/dev/jondelamotte.com/js/app.js",
+		"/D/dev/jondelamotte.com/partial/blog.html",
+		"/D/dev/jondelamotte.com/partial/music.html",
+		"/D/dev/jondelamotte.com/js/controllers/IndexCtrl.js",
+		"/D/dev/jondelamotte.com/Gruntfile.js",
+		"/D/dev/jondelamotte.com/js/package.min.js",
+		"/D/dev/jondelamotte.com/js/factories/blogFactory.js",
+		"/D/dev/jondelamotte.com/js/factories/lastFmFactory",
+		"/C/Users/jond/Downloads/foundation-4.2.2/index.html",
+		"/D/dev/jondelamotte.com/js/vendor/mixpanel.js",
+		"/D/dev/learn/angular-seed/README.md",
+		"/D/dev/learn/angular-seed/app/index.html",
+		"/D/dev/learn/angular-seed/app/js/filters.js",
+		"/D/dev/learn/angular-seed/app/js/directives.js",
+		"/C/Users/jond/Downloads/foundation-4.2.2/robots.txt",
+		"/C/Users/jond/Downloads/foundation-4.2.2/humans.txt",
+		"/D/dev/learn/angular-seed/test/e2e/scenarios.js",
+		"/D/dev/learn/angular-seed/app/web-server.js",
+		"/D/dev/jondelamotte.com/js/new.js",
+		"/D/dev/jondelamotte.com/js/main.js",
+		"/D/dev/jondelamotte.com/js/angular.js",
+		"/D/dev/jondelamotte.com/js/main.min.js",
+		"/C/Users/jond/Downloads/Q10/q10.ini",
+		"/D/dev/jondelamotte.com/js/moment.js",
+		"/D/dev/learn/azure-ad/federationmetadata.xml",
+		"/D/dev/learn/azure-ad/views/account.jade",
+		"/D/dev/jondelamotte.com/package.json",
+		"/D/dev/learn/azure-ad/app.js",
+		"/D/dev/learn/events/app.js",
+		"/D/dev/jondelamotte.com/js/source-map.js",
+		"/D/dev/jondelamotte.com/.gitignore",
+		"/D/dev/jondelamotte.com/grunt.js",
+		"/D/dev/csgnode/public/js/nike-main.js",
+		"/D/dev/csgnode/public/js/nike-main.min.js",
+		"/D/dev/csgnode/views/nike/login.html",
+		"/D/dev/csgnode/modules/db.js",
+		"/D/dev/csgnode/modules/filter.js",
+		"/D/dev/csgnode/views/nike/index.html",
+		"/D/dev/csgnode/public/css/dc.css",
+		"/D/dev/csgnode/public/css/nike.css",
+		"/D/dev/csgnode/views/nike/about.html",
+		"/D/dev/csgnode/public/css/foundation.css",
+		"/D/dev/csgnode/app.js",
+		"/D/dev/csgnode/config.json",
+		"/D/dev/csgnode/routes/nike.js",
+		"/D/dev/csgnode/public/js/main-old.js",
+		"/D/dev/csgnode/public/css/foundation.min.css",
+		"/D/dev/csgnode/modules/sockets.js",
+		"/D/dev/csgnode/test/filter-test.js",
+		"/C/Users/jond/Desktop/Delivery Note.xml",
+		"/D/dev/csgnode/for_styling/js/main-old.js",
+		"/D/dev/csgnode/for_styling/js/nike-main.js",
+		"/D/dev/csgnode/for_styling/index.html",
+		"/F/Important data sets/All records.csv",
+		"/C/Users/jond/Desktop/Nike_DO_HBA_D-.xml",
+		"/C/Users/jond/Desktop/Nike_DO_CHA_D-.xml",
+		"/C/Users/jond/Desktop/Nike_DO_SRS_D-.xml",
+		"/C/Users/jond/Desktop/Nike_DO_FGL_D-.xml",
+		"/C/Users/jond/Desktop/Nike_DO_CTC_D-.xml",
+		"/D/dev/csgnode/node_modules/azure/lib/services/table/models/queryentitiesresultcontinuation.js",
+		"/D/dev/csgnode/node_modules/moment/tasks/size.js",
+		"/C/Users/jond/Downloads/foundation-4.2.1.custom/index.html",
+		"/D/dev/csgnode/.deployment",
+		"/D/dev/csgnode/views/login.jade",
+		"/D/dev/csgnode/iisnode.yml",
+		"/D/dev/csgnode/public/js/foundation.min.js",
+		"/C/Users/jond/Downloads/foundation-4.2.1.custom/js/foundation/foundation.tooltips.js",
+		"/C/Users/jond/Downloads/foundation-4.2.1.custom/js/foundation.min.js",
+		"/D/dev/csgnode/web.config",
+		"/D/dev/csgnode/README.md",
+		"/D/dev/csgnode/deploy.cmd",
+		"/C/Users/jond/Downloads/foundation-4.2.1.custom/img/.gitkeep",
+		"/D/dev/Nike Dashboard/GenerateAndUploadData.ps1",
+		"/D/dev/csgnode/views/nike/nike1.html",
+		"/D/dev/csgnode/static/nike1.html",
+		"/D/dev/csgnode/package.json",
+		"/D/dev/Nike%20Dashboard/GenerateAndUploadData.ps1",
+		"/D/dev/Nike Dashboard/File Uploader/Program.cs",
+		"/D/dev/csgnode/views/index.jade",
+		"/D/dev/csgnode/views/layout.jade",
+		"/D/dev/csgnode/modules/data-filter.js",
+		"/D/dev/csgnode/routes/data.js",
+		"/D/dev/csgnode/public/js/dc.js",
+		"/D/dev/csgnode/routes/test.js",
+		"/D/dev/csgnode/public/js/main.js",
+		"/C/Users/jond/.vimrc",
+		"/D/dev/node-azure-test/routes/table.js",
+		"/D/dev/csgnode/modules/config.json",
+		"/D/dev/csgnode/.gitignore",
+		"/D/dev/csgnode/node/app.js",
+		"/D/dev/csgnode/routes/index.js",
+		"/C/Users/jond/.gitconfig",
+		"/C/Users/jond/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/dev/csgnode/.git/config",
+		"/D/dev/csgnode/node_modules/socket.io/lib/socket.io.js",
+		"/D/dev/node-azure-test/routes/test.js",
+		"/D/dev/node-azure-test/app.js",
+		"/D/dev/node-azure-test/modules/config.js",
+		"/D/dev/node-learn-di/modules/base.js",
+		"/D/dev/node-learn-di/app.js",
+		"/D/dev/peon/package.json",
+		"/D/dev/chatter/node_modules/azure/lib/azure.js",
+		"/D/dev/node-azure-test/config.json",
+		"/D/dev/node-azure-test/views/index.jade",
+		"/D/dev/node-azure-test/routes/personlist.js",
+		"/D/dev/node-azure-test/routes/index.js",
+		"/D/dev/node-azure-test/models/person.js",
+		"/D/dev/node-azure-test/modules/person.js",
+		"/D/dev/node-azure-test/modules/text.js",
+		"/D/dev/peon/test.js",
+		"/D/dev/peon/modules/xml.js",
+		"/D/dev/node-azure-test/AzureTest/package.json",
+		"/C/Users/jond/.vim_runtime/vimrc/install_awesome_vimrc.sh",
+		"/C/Users/jond/_viminfo",
+		"/D/dev/test.js",
+		"/D/dev/csgnode/public/js/socket.io.js",
+		"/D/GitHub/peon/server.js",
+		"/C/Users/jond/AppData/Roaming/Brackets/extensions/brackets-theseus/package.json",
+		"/D/GitHub/node-learn-stylus/app.js",
+		"/D/GitHub/node-learn-stylus/views/index.jade",
+		"/D/GitHub/node-learn-stylus/public/stylesheets/style.styl",
+		"/D/GitHub/node-learn-stylus/public/stylesheets/grids.scss",
+		"/D/GitHub/node-learn-stylus/views/layout.jade",
+		"/D/GitHub/node-learn-stylus/public/stylesheets/csswizardry-grids.scss"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\dev\\csgnode\\node_modules\\azure",
+			"<project>",
+			"D:\\dev\\csgnode\\node_modules\\express\\lib",
+			"<project>",
+			"D:\\dev\\csgnode\\node_modules\\express\\lib",
+			"D:\\GitHub\\csgnode",
+			"D:\\GitHub\\csgnode\\api",
+			"D:\\GitHub\\csgnode\\routes",
+			"D:\\GitHub\\csgnode",
+			"D:\\GitHub\\csgnode\\public\\js",
+			"D:\\GitHub\\csgnode\\node_modules\\express",
+			"D:\\GitHub\\csgnode",
+			"<project>",
+			"C:\\Users\\jond\\SkyDrive\\Websites\\expressSurvey\\views",
+			"D:\\GitHub\\consensus",
+			"D:\\GitHub\\consensus\\css",
+			"C:\\Users\\jond\\SkyDrive\\Websites\\jondelamotte.com\\TileDesign\\css",
+			"C:\\Users\\jond\\SkyDrive\\Websites\\jondelamotte.com\\TileDesign",
+			"C:\\Users\\jond\\Documents\\Visual Studio 2012\\Projects\\Sandbox"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-family",
+			"-",
+			"white",
+			"section",
+			"jonappmodule",
+			"jonappmo",
+			"font-famil",
+			"font-f",
+			"font-family",
+			"3",
+			",",
+			"background-color",
+			"ng-control",
+			"}",
+			"'},",
+			"td",
+			"menu",
+			"app",
+			"com",
+			"data-anim",
+			"      ",
+			"    ",
+			"moment",
+			"ago",
+			"addMusicBox",
+			"table",
+			"margin",
+			"navItem",
+			"p",
+			"span",
+			"div",
+			"response",
+			"/di",
+			"class",
+			"span",
+			"center",
+			"privatec",
+			"path",
+			",",
+			"  ,",
+			"chartbydays",
+			"hour",
+			"hourFormat",
+			"hr",
+			"div",
+			"span",
+			"button",
+			"an",
+			"index.html",
+			"/nike",
+			"authOptions",
+			"div",
+			"hasNextPage",
+			"age()",
+			"hasnext",
+			"magni",
+			"clear",
+			"small",
+			"#c6",
+			"#f47920",
+			"#f479",
+			"#f4",
+			"sans-serif",
+			"steelblue",
+			"slice",
+			"push-button",
+			"panel",
+			"25",
+			"height",
+			"margin",
+			"input[type=submit]",
+			"piechartordert",
+			"35",
+			"\\.on",
+			".on",
+			"dimhour",
+			"record",
+			"dimDate",
+			"pieChartOrderType",
+			"chartByDays",
+			"\"></",
+			"min",
+			"max",
+			"chartbyweeks",
+			"chartbydays",
+			"chartByWeeks",
+			"chartByHours",
+			"sent x",
+			"domain",
+			"chartCountOfRecordsElement",
+			"var",
+			"type",
+			"measure",
+			"28",
+			"pieChartOrderTypeElement",
+			"pieChartOrderDate",
+			"pieChartOrderDateElement",
+			"ParitionKey",
+			"BadAttribut",
+			"!'},\n",
+			"type",
+			"typ",
+			"pie",
+			"new date",
+			"pieChart",
+			")\n",
+			"new Date() + ",
+			"20130104",
+			"},",
+			"pieChart",
+			"Measure66Or76PetitionSigner",
+			"NULL",
+			"null",
+			"NULL",
+			"null",
+			"NULL",
+			"null",
+			"NULL",
+			"null",
+			"NULL",
+			"null",
+			"NULL",
+			"null",
+			"'No'",
+			"hunter",
+			"35",
+			"date",
+			"deliver"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\\n",
+			"12/17/2012",
+			"12/10/2012",
+			"12/5/2012",
+			"12/3/2012",
+			"12/1/2012"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/css/main.css",
+					"settings":
+					{
+						"buffer_size": 1125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxcomma": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 1974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxcomma": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 94.0
+	},
+	"output.sftp":
+	{
+		"height": 414.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"maincss",
+				"app/css/main.css"
+			],
+			[
+				"foundati",
+				"css/foundation.css"
+			],
+			[
+				"pacmin",
+				"js/package.min.js"
+			],
+			[
+				"ctrl",
+				"js/controllers/IndexCtrl.js"
+			],
+			[
+				"foundationcss",
+				"css/foundation.css"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"evenc",
+				"app/js/controllers/EventCtrl.js"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"packmin",
+				"js/package.min.js"
+			],
+			[
+				"indexh",
+				"index.html"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"pack",
+				"js/package.min.js"
+			],
+			[
+				"mainmin",
+				"js/main.min.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"nikem",
+				"public/js/nike-main.js"
+			],
+			[
+				"filterjs",
+				"modules/filter.js"
+			],
+			[
+				"dbjs",
+				"modules/db.js"
+			],
+			[
+				"dccss",
+				"public/css/dc.css"
+			],
+			[
+				"nikema",
+				"public/js/nike-main.js"
+			],
+			[
+				"nikecss",
+				"public/css/nike.css"
+			],
+			[
+				"login",
+				"views/nike/login.html"
+			],
+			[
+				"foundation",
+				"public/css/foundation.css"
+			],
+			[
+				"abouth",
+				"views/nike/about.html"
+			],
+			[
+				"nikehtml",
+				"views/nike/index.html"
+			],
+			[
+				"config",
+				"config.json"
+			],
+			[
+				"nikejs",
+				"routes/nike.js"
+			],
+			[
+				"conf",
+				"config.json"
+			],
+			[
+				"aboutht",
+				"views/nike/about.html"
+			],
+			[
+				"appjs",
+				"app.js"
+			],
+			[
+				"about",
+				"views/nike/about.html"
+			],
+			[
+				"old",
+				"public/js/main-old.js"
+			],
+			[
+				"foundation.css",
+				"public/css/foundation.min.css"
+			],
+			[
+				"socket",
+				"modules/sockets.js"
+			],
+			[
+				"filter",
+				"modules/filter.js"
+			],
+			[
+				"db",
+				"modules/db.js"
+			],
+			[
+				"html",
+				"views/nike/index.html"
+			],
+			[
+				"db.js",
+				"modules/db.js"
+			],
+			[
+				"confi",
+				"config.json"
+			],
+			[
+				"nike-main",
+				"public/js/nike-main.js"
+			],
+			[
+				"nike.css",
+				"public/css/nike.css"
+			],
+			[
+				"dc.css",
+				"public/css/dc.css"
+			],
+			[
+				"main.",
+				"public/js/nike-main.js"
+			],
+			[
+				"s",
+				"node_modules/moment/tasks/size.js"
+			],
+			[
+				"nike-m",
+				"public/js/nike-main.js"
+			],
+			[
+				"nike1",
+				"views/nike/nike1.html"
+			],
+			[
+				"nikeindex",
+				"views/nike/index.html"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"filter.s",
+				"modules/filter.js"
+			],
+			[
+				"index.jade",
+				"views/index.jade"
+			],
+			[
+				"layout.jade",
+				"views/layout.jade"
+			],
+			[
+				"az",
+				"chatter/node_modules/azure/lib/azure.js"
+			],
+			[
+				"nodestyapp",
+				"node-learn-stylus/app.js"
+			],
+			[
+				"lay",
+				"views/layout.jade"
+			],
+			[
+				"dcjs",
+				"public/js/dc.js"
+			],
+			[
+				"ind",
+				"views/index.jade"
+			],
+			[
+				"indej",
+				"routes/index.js"
+			],
+			[
+				"indejs",
+				"routes/index.js"
+			],
+			[
+				"mainjs",
+				"public/js/main.js"
+			],
+			[
+				"gener",
+				"api/generateCall.js"
+			],
+			[
+				"genera",
+				"api/generateCall.js"
+			],
+			[
+				"stcss",
+				"public/css/style.css"
+			],
+			[
+				"css",
+				"public/css/dc.css"
+			],
+			[
+				"indeja",
+				"views/index.jade"
+			],
+			[
+				"boot",
+				"public/js/bootstrap.js"
+			],
+			[
+				"boo",
+				"public/js/bootstrap.js"
+			],
+			[
+				"index.js",
+				"routes/index.js"
+			],
+			[
+				"sty",
+				"public/css/style.css"
+			],
+			[
+				"layou",
+				"views/layout.jade"
+			],
+			[
+				"adminj",
+				"views/admin.jade"
+			],
+			[
+				"adminja",
+				"views/admin.jade"
+			],
+			[
+				"style.",
+				"public/css/style.css"
+			],
+			[
+				"layjad",
+				"views/layout.jade"
+			],
+			[
+				".jade",
+				"views/index.jade"
+			],
+			[
+				".css",
+				"public/css/style.css"
+			],
+			[
+				"mainj",
+				"public/js/main.js"
+			],
+			[
+				"layout",
+				"views/layout.jade"
+			],
+			[
+				"datatabl",
+				"routes/datatable.js"
+			],
+			[
+				"index.jd",
+				"views/index.jade"
+			],
+			[
+				"main.js",
+				"public/js/main.js"
+			],
+			[
+				"adminjs",
+				"public/js/admin.js"
+			],
+			[
+				"tiles.jad",
+				"views/tiles.jade"
+			],
+			[
+				"indexjad",
+				"views/index.jade"
+			],
+			[
+				"admin",
+				"csgnode/views/admin.jade"
+			],
+			[
+				"adminjade",
+				"csgnode/views/admin.jade"
+			],
+			[
+				"package.js",
+				"csgnode/package.json"
+			],
+			[
+				"qual",
+				"Qualified to share in the inheritance of the saint"
+			],
+			[
+				"cleanjs",
+				"jondelamotte.com/clean/js/main.js"
+			],
+			[
+				"reveal.css",
+				"presentation/css/reveal.css"
+			],
+			[
+				"reve",
+				"presentation/js/reveal.js"
+			],
+			[
+				"hel",
+				"presentation/css/helper.css"
+			],
+			[
+				"he",
+				"presentation/css/helper.css"
+			],
+			[
+				"format_",
+				"ETL/Format_LnL_DemographicFields.xml"
+			],
+			[
+				"au",
+				"demos/authentication/authentication.js"
+			],
+			[
+				"defajs",
+				"js/default.js"
+			],
+			[
+				"authjs",
+				"demos/authentication/authentication.js"
+			],
+			[
+				"authcss",
+				"demos/authentication/authentication.css"
+			],
+			[
+				"auth",
+				"demos/authentication/authentication.html"
+			],
+			[
+				"listview",
+				"demos/listviews/listviews.html"
+			],
+			[
+				"",
+				"/C/Users/jond/AppData/Roaming/Microsoft/Signatures/CSG.htm"
+			],
+			[
+				"test",
+				"test"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true
+}

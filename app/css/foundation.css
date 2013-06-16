@@ -10,11 +10,11 @@ body {
   font-size: 100%; }
 
 body {
-  /*background: white;*/
+  background: white;
   color: #222222;
   padding: 0;
   margin: 0;
-  /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+  font-family: "Lato", "Helvetica", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1061,7 +1061,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+  font-family: "Lato", "Helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #222222;
@@ -2626,7 +2626,7 @@ form.custom {
   height: 45px;
   line-height: 45px;
   position: relative;
-  /*background: #111111;*/
+  background: #111111;
   margin-bottom: 1.875em; }
   .top-bar ul {
     margin-bottom: 0;
@@ -2684,19 +2684,20 @@ form.custom {
         height: 34px;
         line-height: 33px;
         padding: 0;
-        color: black; }
+        color: white; }
         .top-bar .toggle-topbar.menu-icon a span {
           position: absolute;
           right: 0;
           display: block;
           width: 16px;
           height: 0;
-          -webkit-box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
-          box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black; }
+          -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+          box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
   .top-bar.expanded {
     height: auto;
     background: transparent; }
-    .top-bar.expanded .title-area {}
+    .top-bar.expanded .title-area {
+      background: #111111; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span {
@@ -2714,26 +2715,25 @@ form.custom {
     width: 100%;
     height: auto;
     display: block;
-    /*background: #222222;*/
+    background: #222222;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-bottom: solid 1px rgb(201, 201, 201);
-    border-top: solid 1px grey;
+    border-bottom: solid 1px #2b2b2b;
+    border-top: solid 1px black;
     clear: both;
     height: 1px;
     width: 100%; }
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: black;
+    color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-size: 0.8125em;
     font-weight: bold;
-    /*background: #222222;*/
-  }
+    background: #222222; }
     .top-bar-section ul li > a.hover {
       background: #090909;
       color: white; }
@@ -2813,7 +2813,7 @@ form.custom {
 
 @media only screen and (min-width: 58.75em) {
   .top-bar {
-    background: #f0f1eb;
+    background: #111111;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -2858,11 +2858,9 @@ form.custom {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      /*background: #111111; */
-    }
+      background: #111111; }
       .top-bar-section li a:not(.button).hover {
-        /*background: black; */
-      }
+        background: black; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -2906,8 +2904,8 @@ form.custom {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #fff;
-      border-left: solid 1px #ccc;
+      border-right: solid 1px #2b2b2b;
+      border-left: solid 1px black;
       clear: none;
       height: 45px;
       width: 0px; }

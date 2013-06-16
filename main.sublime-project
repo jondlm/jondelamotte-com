@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/D/dev/jondelamotte.com",
+      "folder_exclude_patterns": ["node_modules"]
+		}
+	]
+}

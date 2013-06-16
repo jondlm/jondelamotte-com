@@ -17,18 +17,18 @@ module.exports = function(grunt) {
       },
       main: {
         files: {
-          'js/package.min.js': [
-            'js/vendor/angular.js',
-            'js/vendor/foundation.min.js',
-            'js/vendor/moment.js',
-            'js/vendor/mixpanel.js'
+          'app/js/package.min.js': [
+            'app/js/vendor/angular.js',
+            'app/js/vendor/foundation.min.js',
+            'app/js/vendor/moment.js',
+            'app/js/vendor/mixpanel.js'
           ]
         }
       }
     },
     watch: { // TODO fix the watch, structure has changed from when I wrote this
       scripts: {
-        files: ['js/main.js'],
+        files: ['app/js/main.js'],
         tasks: ['default']
       }
     }
