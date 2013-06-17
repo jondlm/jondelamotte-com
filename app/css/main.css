@@ -23,7 +23,7 @@ body {
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
 @media only screen and (min-width: 768px) {
-  #title { height: 45px; }
+  #title { height: 40px; margin-top: 6px; }
 }
 
 /* Used to alter styles for screens at least 1280px wide. */

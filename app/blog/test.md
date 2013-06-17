@@ -8,12 +8,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ex nisi ration
 * List Item
 * List Item
 
-1. List Item
-1. List Item
-1. List Item
-1. List Item
-1. List Item
-
 ```
 Code
 ```
