@@ -6,7 +6,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     uglify: {
       options: {
-        sourceMap: 'source-map.js',
+        sourceMap: 'app/js/source-map.js',
         banner: '// By: Jon de la Motte\n' + 
                 '// On: ' + new Date() + '\n' +
                 '// \n' +
@@ -26,6 +26,17 @@ module.exports = function(grunt) {
         }
       }
     },
+    markdown: {
+      all: {
+        files: [
+          {
+            expand: true,
+            src: 'app/blog/*.md',
+            ext: '.html'
+          }
+        ]
+      }
+    },
     watch: { // TODO fix the watch, structure has changed from when I wrote this
       scripts: {
         files: ['app/js/main.js'],
@@ -37,8 +48,9 @@ module.exports = function(grunt) {
   // Load the plugins via NPM
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-markdown');
 
   // Default task
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['uglify', 'markdown']);
 
 };

@@ -6,22 +6,25 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #f0f1eb;
 }
-#title {
-  height: 100%;
+/*#title {
+  height: 45px;
 }
-
+*/
 /****************************/
 /* FOUNDATION MEDIA QUERIES */
 /****************************/
 /* We use this media query to add styles to any device that supports media queries */
-@media only screen {
-  .flex-img {
-    width: 90px;
-  }
+@media only screen {}
+
+@media only screen and (max-width: 767px) { /* Phones */
+  .flex-img { width: 110px; }
+  #title { width: 120px; margin-top: 14px; }
 }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  #title { height: 45px; }
+}
 
 /* Used to alter styles for screens at least 1280px wide. */
 @media only screen and (min-width: 1280px) {}

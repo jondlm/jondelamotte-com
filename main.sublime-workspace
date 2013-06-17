@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
 				"new",
 				"newBox"
 			],
@@ -336,10 +340,6 @@
 				"swapContent"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"cur",
 				"cursor"
 			],
@@ -487,7 +487,7 @@
 			"file": "app/css/main.css",
 			"settings":
 			{
-				"buffer_size": 1125,
+				"buffer_size": 1266,
 				"line_ending": "Windows"
 			}
 		},
@@ -496,6 +496,25 @@
 			"settings":
 			{
 				"buffer_size": 1974,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<h2>The Skinny</h2>\n<p>\n  I'm a web developer and consultant living and working in Portland, Oregon. I'm all about technology and the open web. I spend a lot of time learning new technologies, always searching for \"the most effective.\" It's more of a mentality than a destination. My technical background is diverse, ranging from enterprise SQL Server data warehousing to responsive front-end design. Tweet or email me.\n</p><br>\n<h2>\n  My Past: A Budding Nerd\n</h2>\n<p>\n  <img class=\"right flex-img\" src=\"img/nerd.jpg\" alt=\"An old photo of me with some audio equipment.\"> While growing up, I always loved technology. I learned to convince my parents to buy the \"latest and greatest\" gadgets, when possible, so I could feed my burning desire for 1s and 0s. In high school, I did two years of the Cisco Networking Academy. I got to play with stuff ranging from gigantic 32 port hubs to quad processor (when I was a kid this was nuts) Sun servers. This love eventually developed in to a career choice when I began the computer science program at Oregon State University in 2006. After completing my first year in computer science, I realized I loved interacting with humans as well as computers. In light of this, I changed my major to business information systems to discover a meaningful fusion between business and computing. Three years later I completed my college education with a semester abroad in Sweden. Currently I have a BS in business information systems and international business.\n</p><br>\n<h2>\n  My Middle: A Developing Routard\n</h2>\n<p>\n  <img src=\"img/eiffel.jpg\" alt=\"Me at the Eiffel tower in Paris, France\" class=\"right flex-img\"> In case you were wondering why I referred to myself as a routard, it's a French word for 'traveler'. A consequence of having a father who isn't from the US is getting to visit relatives outside the country. In my life I've been blessed with the desire and the means to see the world. From a young age my family began visiting France. The language always interested me but I never really learned it until recently. After studying abroad in Sweden during the winter of 2010, I had the opportunity to live with my grandma and self-study French for three months.\n</p><br>\n<h2>\n  My Present: The Good Life\n</h2>\n<p>\n  I eventually ended up in Portland after my adventures abroad. That's when I met my lovely wife. And as they say, the rest was history. I now work as a consultant for <a href=\"http://csgpro.com\">CSG Pro</a> here in Portland where I am focussed on data visualization. I am passionate about data and technology. So much so, I often learn it in my spare time; I even ocassionally dream about it. Yikes.\n</p>\n<p>\n  Most importantly, I love Jesus. I love everything about Him. I keep asking Him to change me, from the inside out, to be more like Him. It's a journey I'll be on until I die. And it's the best journey to be found.\n</p>",
+			"file": "app/partial/about.html",
+			"file_size": 2631,
+			"file_write_time": 130159652924728656,
+			"settings":
+			{
+				"buffer_size": 2889,
 				"line_ending": "Windows"
 			}
 		}
@@ -960,6 +979,7 @@
 	},
 	"file_history":
 	[
+		"/D/dev/jondelamotte.com/main.sublime-project",
 		"/D/dev/jondelamotte.com/css/foundation.css",
 		"/D/dev/jondelamotte.com/css/main.css",
 		"/D/dev/jondelamotte.com/index.html",
@@ -1086,8 +1106,7 @@
 		"/D/GitHub/node-learn-stylus/views/index.jade",
 		"/D/GitHub/node-learn-stylus/public/stylesheets/style.styl",
 		"/D/GitHub/node-learn-stylus/public/stylesheets/grids.scss",
-		"/D/GitHub/node-learn-stylus/views/layout.jade",
-		"/D/GitHub/node-learn-stylus/public/stylesheets/csswizardry-grids.scss"
+		"/D/GitHub/node-learn-stylus/views/layout.jade"
 	],
 	"find":
 	{
@@ -1124,6 +1143,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<img",
+			"img",
+			"js/",
+			"'",
 			"font-family",
 			"-",
 			"white",
@@ -1247,11 +1270,7 @@
 			"null",
 			"NULL",
 			"null",
-			"'No'",
-			"hunter",
-			"35",
-			"date",
-			"deliver"
+			"'No'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1276,7 +1295,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1284,15 +1303,15 @@
 					"file": "app/css/main.css",
 					"settings":
 					{
-						"buffer_size": 1125,
+						"buffer_size": 1266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								363,
-								363
+								395,
+								395
 							]
 						],
 						"settings":
@@ -1402,8 +1421,8 @@
 						"selection":
 						[
 							[
-								119,
-								119
+								639,
+								639
 							]
 						],
 						"settings":
@@ -1496,6 +1515,231 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 1264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxcomma": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/partial/about.html",
+					"settings":
+					{
+						"buffer_size": 2889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								401
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxcomma": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"spell_check": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

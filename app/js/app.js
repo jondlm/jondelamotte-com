@@ -19,7 +19,8 @@ jonApp.config(function ($routeProvider) {
     })
     .when('/blog', {
       controller: 'IndexCtrl',
-      templateUrl: 'partial/blog.html'
+      templateUrl: 'blog/test.html'
+      // templateUrl: 'partial/blog.html'
     })
     .otherwise( {redirectTo: '/'} );
 
