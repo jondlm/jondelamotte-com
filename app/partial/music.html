@@ -1,22 +1,44 @@
-<input type="text" ng-model="query">
+<script>
+  var elements = document.querySelectorAll('.song');
+  debugger;
+  for (var i = elements.length - 1; i >= 0; i--) {
+    debugger;
+    Hammer(elements[i]).on("swiperight", function(event){
+      alert('hello!');
+    });
+  };
+</script>
 
-<table>
-  <thead>
-    <th>Song</th>
-    <th>Artist</th>
-    <th>When</th>
-    <th>Album Art</th>
-  </thead>
-  <tbody>
-    <tr ng-repeat="song in songs.recenttracks.track | filter:query | limitTo:100">
-      <td>{{ song.name }}</td>
-      <td>{{ song.artist['#text'] }}</td>
-      <td>{{ song.date['#text'] | utcFromNow }}</td>
-      <td style="text-align:center;">
-        <a href="{{song.url}}">
+<div class="row">
+  <div class="small-12 columns">
+    <h1 class="song">I'm Listening To:</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="large-2 columns">
+    <input type="text" placeholder="Filter" ng-model="query">
+  </div>
+  <div class="large-10 columns">
+    <table>
+      <thead>
+        <th>Song</th>
+        <th>Artist</th>
+        <th>When</th>
+        <th>Album Art</th>
+      </thead>
+    <tbody>
+      <tr class="song" ng-repeat="song in songs.recenttracks.track | filter:query">
+        <td>
+          <a href="{{song.url}}">{{ song.name }}</a>
+        </td>
+        <td>{{ song.artist['#text'] }}</td>
+        <td alt="{{song.date['#text']}}">{{ song.date['#text'] | utcFromNow }}</td>
+        <td style="text-align:center;">
           <img ng-src="{{song.image[0]['#text']}}" alt="Album art for {{ song.artist['#text'] }}">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+        </td>
+      </tr>
+    </tbody>
+    </table>   
+  </div>
+</div>
+

@@ -13,6 +13,7 @@ module.exports = function(grunt) {
                 '// 3rd party libraries:\n' +
                 '//   Angular.js - v1.1.5 - angularjs.org\n' +
                 '//   Foundation.js - v4.2.2 - foundation.zurb.com\n' +
+                '//   Hammer.js - v1.0.5 - eightmedia.github.io/hammer.js\n' +
                 '//   Moment.js - v2.0.0 - momentjs.com\n'
       },
       main: {
@@ -21,6 +22,7 @@ module.exports = function(grunt) {
             'app/js/vendor/angular.js',
             'app/js/vendor/foundation.min.js',
             'app/js/vendor/moment.js',
+            'app/js/vendor/hammer.js',
             'app/js/vendor/mixpanel.js'
           ]
         }
