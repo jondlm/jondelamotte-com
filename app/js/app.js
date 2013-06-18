@@ -7,7 +7,7 @@ jonApp.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       controller: 'IndexCtrl',
-      templateUrl: 'partial/music.html'
+      templateUrl: 'partial/home.html'
     })
     .when('/about', {
       controller: 'IndexCtrl',
@@ -16,6 +16,10 @@ jonApp.config(function ($routeProvider) {
     .when ('/contact', {
       controller: 'IndexCtrl',
       templateUrl: 'partial/contact.html'
+    })
+    .when ('/music', {
+      controller: 'IndexCtrl',
+      templateUrl: 'partial/music.html'
     })
     .when('/blog', {
       controller: 'IndexCtrl',

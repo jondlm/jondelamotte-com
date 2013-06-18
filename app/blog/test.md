@@ -9,8 +9,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ex nisi ration
 * List Item
 * List Item
 
-```
-Code
+```javascript
+// This is some javascript
+
+var x = 10;
+var y = x * 5;
+
+function(num) {
+  return num * 5;
+}
 ```
 
 In line `code`

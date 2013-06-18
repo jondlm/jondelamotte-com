@@ -34,7 +34,13 @@ module.exports = function(grunt) {
             src: 'app/blog/*.md',
             ext: '.html'
           }
-        ]
+        ],
+        options: {
+          markdownOptions: {
+            gfm: true,
+            highlight: 'manual'
+          }
+        }
       }
     },
     watch: { // TODO fix the watch, structure has changed from when I wrote this

@@ -1,10 +1,22 @@
+<input type="text" ng-model="query">
+
 <table>
-  <tr ng-repeat="song in songs.recenttracks.track | limitTo:10">
-    <td>{{ song.name }}</td>
-    <td>{{ song.artist['#text'] }}</td>
-    <td>{{ song.date['#text'] | utcFromNow }}</td>
-    <td style="text-align:center;">
-      <img ng-src="{{song.image[0]['#text']}}" alt="Album art for {{ song.artist['#text'] }}">
-    </td>
-  </tr>
+  <thead>
+    <th>Song</th>
+    <th>Artist</th>
+    <th>When</th>
+    <th>Album Art</th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="song in songs.recenttracks.track | filter:query | limitTo:100">
+      <td>{{ song.name }}</td>
+      <td>{{ song.artist['#text'] }}</td>
+      <td>{{ song.date['#text'] | utcFromNow }}</td>
+      <td style="text-align:center;">
+        <a href="{{song.url}}">
+          <img ng-src="{{song.image[0]['#text']}}" alt="Album art for {{ song.artist['#text'] }}">
+        </a>
+      </td>
+    </tr>
+  </tbody>
 </table>

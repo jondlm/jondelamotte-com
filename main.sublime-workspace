@@ -484,26 +484,34 @@
 	"buffers":
 	[
 		{
-			"file": "app/js/factories/lastFmFactory.js",
+			"file": "app/js/app.js",
 			"settings":
 			{
-				"buffer_size": 922,
+				"buffer_size": 724,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/js/controllers/IndexCtrl.js",
+			"file": "app/partial/home.html",
 			"settings":
 			{
-				"buffer_size": 286,
+				"buffer_size": 515,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gruntfile.js",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 1503,
+				"buffer_size": 2095,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/partial/music.html",
+			"settings":
+			{
+				"buffer_size": 588,
 				"line_ending": "Windows"
 			}
 		}
@@ -511,7 +519,7 @@
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
 	{
-		"height": 160.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -968,16 +976,20 @@
 	},
 	"file_history":
 	[
-		"/D/dev/jondelamotte.com/app/index.html",
-		"/D/dev/jondelamotte.com/app/js/app.js",
-		"/D/dev/jondelamotte.com/app/partial/music.html",
-		"/D/dev/jondelamotte.com/app/js/modules/angular-resource.min.js",
-		"/D/dev/jondelamotte.com/app/css/main.css",
-		"/D/dev/jondelamotte.com/Gruntfile.js",
-		"/D/dev/jondelamotte.com/app/partial/about.html",
-		"/D/dev/jondelamotte.com/app/blog/test.md",
-		"/D/dev/jondelamotte.com/app/css/foundation.css",
 		"/D/dev/jondelamotte.com/app/js/controllers/IndexCtrl.js",
+		"/D/dev/jondelamotte.com/app/js/factories/lastFmFactory.js",
+		"/D/dev/jondelamotte.com/Gruntfile.js",
+		"/D/dev/jondelamotte.com/app/partial/music.html",
+		"/D/dev/jondelamotte.com/app/js/app.js",
+		"/D/dev/jondelamotte.com/app/index.html",
+		"/D/dev/jondelamotte.com/app/blog/test.md",
+		"/D/dev/jondelamotte.com/app/css/main.css",
+		"/D/dev/jondelamotte.com/app/css/foundation.css",
+		"/D/dev/jondelamotte.com/app/blog/test.html",
+		"/D/dev/jondelamotte.com/app/partial/home.html",
+		"/D/dev/jondelamotte.com/app/js/filters/dateFilters.js",
+		"/D/dev/jondelamotte.com/app/js/modules/angular-resource.min.js",
+		"/D/dev/jondelamotte.com/app/partial/about.html",
 		"/D/dev/jondelamotte.com/app/js/factories/blogFactory.js",
 		"/D/dev/jondelamotte.com/app/blog/markdown/test.md",
 		"/D/dev/jondelamotte.com/main.sublime-project",
@@ -1091,11 +1103,7 @@
 		"/D/dev/node-azure-test/routes/personlist.js",
 		"/D/dev/node-azure-test/routes/index.js",
 		"/D/dev/node-azure-test/models/person.js",
-		"/D/dev/node-azure-test/modules/person.js",
-		"/D/dev/node-azure-test/modules/text.js",
-		"/D/dev/peon/test.js",
-		"/D/dev/peon/modules/xml.js",
-		"/D/dev/node-azure-test/AzureTest/package.json"
+		"/D/dev/node-azure-test/modules/person.js"
 	],
 	"find":
 	{
@@ -1132,6 +1140,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"style=\"background-color:grey;\"",
+			"small",
+			"code",
+			"pre",
+			"code",
 			"<img",
 			"img",
 			"js/",
@@ -1254,15 +1267,10 @@
 			"NULL",
 			"null",
 			"NULL",
-			"null",
-			"NULL",
-			"null",
-			"NULL",
-			"null",
-			"'No'"
+			"null"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": true,
 		"regex": true,
 		"replace_history":
@@ -1284,23 +1292,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/js/factories/lastFmFactory.js",
+					"file": "app/js/app.js",
 					"settings":
 					{
-						"buffer_size": 922,
+						"buffer_size": 724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								724,
+								724
 							]
 						],
 						"settings":
@@ -1402,18 +1410,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/js/controllers/IndexCtrl.js",
+					"file": "app/partial/home.html",
 					"settings":
 					{
-						"buffer_size": 286,
+						"buffer_size": 515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								187,
+								143
 							]
 						],
 						"settings":
@@ -1503,7 +1511,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1513,18 +1521,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "Gruntfile.js",
+					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 1503,
+						"buffer_size": 2095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								380,
-								380
+								803,
+								803
 							]
 						],
 						"settings":
@@ -1614,7 +1622,120 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/partial/music.html",
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxcomma": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1681,6 +1802,58 @@
 		"selected_items":
 		[
 			[
+				"music",
+				"app/partial/music.html"
+			],
+			[
+				"in",
+				"app/index.html"
+			],
+			[
+				"home",
+				"app/partial/home.html"
+			],
+			[
+				"appjs",
+				"app/js/app.js"
+			],
+			[
+				"index",
+				"app/js/controllers/IndexCtrl.js"
+			],
+			[
+				"testmd",
+				"app/blog/test.md"
+			],
+			[
+				"testhtml",
+				"app/blog/test.html"
+			],
+			[
+				"test.html",
+				"app/blog/test.html"
+			],
+			[
+				"foundation",
+				"app/css/foundation.css"
+			],
+			[
+				"maincss",
+				"app/css/main.css"
+			],
+			[
+				"musi",
+				"app/partial/music.html"
+			],
+			[
+				"md",
+				"app/blog/test.md"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
 				"mus",
 				"app/partial/music.html"
 			],
@@ -1693,16 +1866,8 @@
 				"app/js/factories/lastFmFactory.js"
 			],
 			[
-				"foundation",
-				"app/css/foundation.css"
-			],
-			[
 				"css",
 				"app/css/main.css"
-			],
-			[
-				"testmd",
-				"app/blog/test.md"
 			],
 			[
 				"ctrl",
@@ -1717,10 +1882,6 @@
 				"app/index.html"
 			],
 			[
-				"maincss",
-				"app/css/main.css"
-			],
-			[
 				"foundati",
 				"css/foundation.css"
 			],
@@ -1733,16 +1894,8 @@
 				"css/foundation.css"
 			],
 			[
-				"index",
-				"index.html"
-			],
-			[
 				"evenc",
 				"app/js/controllers/EventCtrl.js"
-			],
-			[
-				"inde",
-				"app/index.html"
 			],
 			[
 				"packmin",
@@ -1819,10 +1972,6 @@
 			[
 				"aboutht",
 				"views/nike/about.html"
-			],
-			[
-				"appjs",
-				"app.js"
 			],
 			[
 				"about",
