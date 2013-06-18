@@ -1,6 +1,10 @@
 <table>
-  <tr ng-repeat="song in songs.recenttracks.track">
-    <th>Name: </th>
-    <td>{{song.name}}</td>
+  <tr ng-repeat="song in songs.recenttracks.track | limitTo:10">
+    <td>{{ song.name }}</td>
+    <td>{{ song.artist['#text'] }}</td>
+    <td>{{ song.date['#text'] | utcFromNow }}</td>
+    <td style="text-align:center;">
+      <img ng-src="{{song.image[0]['#text']}}" alt="Album art for {{ song.artist['#text'] }}">
+    </td>
   </tr>
 </table>

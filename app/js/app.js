@@ -1,6 +1,6 @@
 'use strict';
 
-var jonApp = angular.module('jonApp', ['ngResource']);
+var jonApp = angular.module('jonApp', ['ngResource', 'dateFilters']);
 
 jonApp.config(function ($routeProvider) {
 

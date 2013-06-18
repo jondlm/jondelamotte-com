@@ -10,9 +10,9 @@ function IndexCtrl($scope, lastFmFactory) {
 
   function init() {
     $scope.songs = lastFmFactory.query();
-    $scope.songs.success(function(){
-      debugger;
-    });
+    // $scope.songs.success(function(){
+    //   debugger;
+    // });
   }
   
 }
