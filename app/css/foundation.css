@@ -2836,7 +2836,7 @@ form.custom {
       position: relative;
       top: 8px; }
     .top-bar.expanded {
-      background: #f0f1eb; }
+      background: #111111; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5em;

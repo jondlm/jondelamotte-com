@@ -1,6 +1,6 @@
 'use strict';
 
-var jonApp = angular.module('jonApp', []);
+var jonApp = angular.module('jonApp', ['ngResource']);
 
 jonApp.config(function ($routeProvider) {
 

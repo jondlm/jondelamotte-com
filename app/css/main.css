@@ -1,15 +1,10 @@
-* {
-  margin:0;  
-  padding:0;
-}
 body {
   font-family: 'Lato', sans-serif;
   background-color: #f0f1eb;
 }
-/*#title {
-  height: 45px;
+.flex-img {
+  margin-left: 10px;
 }
-*/
 /****************************/
 /* FOUNDATION MEDIA QUERIES */
 /****************************/

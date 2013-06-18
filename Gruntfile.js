@@ -11,7 +11,7 @@ module.exports = function(grunt) {
                 '// On: ' + new Date() + '\n' +
                 '// \n' +
                 '// 3rd party libraries:\n' +
-                '//   Angular.js - v1.5.1 - angularjs.org\n' +
+                '//   Angular.js - v1.1.5 - angularjs.org\n' +
                 '//   Foundation.js - v4.2.2 - foundation.zurb.com\n' +
                 '//   Moment.js - v2.0.0 - momentjs.com\n'
       },
