@@ -1119,6 +1119,20 @@ small {
   font-weight: bold;
   color: #7f0a0c; }
 */
+code {
+  padding: 0px 5px 2px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /*font-family: Consolas, "Liberation Mono", Courier, monospace;*/
+  font-family: Monaco,"DejaVu Sans Mono","Courier New",monospace;
+  font-size: 13px;
+  color: #666;
+}
 /* Lists */
 ul,
 ol,
