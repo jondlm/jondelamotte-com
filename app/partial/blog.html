@@ -1,3 +1,11 @@
-<div>
-  <p>Blog content goes here</p>
+<div ng-repeat="post in posts">
+  <div class="large-6 columns">
+    <span class="label">
+      {{ post.created | fromNow }}
+    </span>
+    <div class="panel">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.short | limitTo:150 }}...</p>
+    </div>
+  </div>
 </div>

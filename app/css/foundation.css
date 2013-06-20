@@ -1120,18 +1120,13 @@ small {
   color: #7f0a0c; }
 */
 code {
-  padding: 0px 5px 2px;
+  margin: 0 2px;
+  padding: 0px 5px;
   border: 1px solid #ddd;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
+  font-size: 0.8em;
+  background-color: #f8f8f8;
   border-radius: 3px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  /*font-family: Consolas, "Liberation Mono", Courier, monospace;*/
-  font-family: Monaco,"DejaVu Sans Mono","Courier New",monospace;
-  font-size: 13px;
-  color: #666;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 /* Lists */
 ul,

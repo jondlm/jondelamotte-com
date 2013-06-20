@@ -4,8 +4,9 @@ var jonApp = angular.module('jonApp', ['ngResource', 'dateFilters']);
 
 jonApp.config(function ($routeProvider) {
 
+  // TODO: Figure out how to pass in the link to blog post as parameter
   $routeProvider
-    .when('/', {
+    .when('/home', {
       controller: 'IndexCtrl',
       templateUrl: 'partial/home.html'
     })
@@ -21,11 +22,14 @@ jonApp.config(function ($routeProvider) {
       controller: 'IndexCtrl',
       templateUrl: 'partial/music.html'
     })
+    .when('/blog/:postName', {
+      controller: 'BlogEntryCtrl',
+      templateUrl: 'partial/blogPost.html'
+    })
     .when('/blog', {
       controller: 'IndexCtrl',
-      templateUrl: 'blog/test.html'
-      // templateUrl: 'partial/blog.html'
+      templateUrl: 'partial/blog.html'
     })
-    .otherwise( {redirectTo: '/'} );
+    .otherwise( {redirectTo: '/blog'} );
 
 });
