@@ -3,6 +3,7 @@
 angular.module('dateFilters', [])
   .filter('utcFromNow', function(){
     return function(input) {
+      if (!input) { return 'Now listening...'; }
       return moment
               .utc(input, 'DD MMM YYYY, hh:mm')
               .local()
@@ -13,4 +14,4 @@ angular.module('dateFilters', [])
     return function(input) {
       return moment(input).fromNow();
     };
-  });
+});

@@ -5,6 +5,8 @@ jonApp.controller('IndexCtrl', IndexCtrl);
 function IndexCtrl($scope, lastFmFactory, $http, $routeParams) {
   $scope.hello = 'Hey there friend.';
   $scope.posts = [];
+  $scope.orderProp = 'created';
+  $scope.reverse = true;
 
   $scope
 

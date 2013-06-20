@@ -1,20 +1,36 @@
+
 <h1>Blog</h1>
+
 <div class="row">
-  <div class="large-6 columns">
-    <input type="text" ng-model="postQuery" placeholder="Search posts">
-  </div>
-</div>
-<div class="row">
-  <div ng-repeat="post in posts | filter:postQuery">
-    <div class="large-6 columns">
-      <span class="label">
-        {{ post.created | fromNow }}
-      </span>
-      <div class="panel">
-        <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
-        <p>{{ post.short | limitTo:150 }}...</p>
-        <span ng-repeat="tag in post.tags"><code>{{ tag }}</code></span>
+  <div class="large-2 push-10 columns"> 
+    <div class="row">
+      <div class="small-6 large-12 columns">
+        <h6 class="subheader">Search:</h6>
+        <input type="text" ng-model="postQuery" placeholder="Search posts">
+      </div>
+      <div class="small-6 large-12 columns">
+        <h6 class="subheader">Sort:</h6>
+        <ul class="button-group">
+          <li><button ng-click="orderProp='created' ; reverse=true" class="small button">Date</button></li>
+          <li><button ng-click="orderProp='title' ; reverse=false" class="small button">Title</button></li>
+        </ul>
       </div>
     </div>
-  </div> 
+  </div>
+
+  <div class="large-10 pull-2 columns">
+    <div ng-repeat="post in posts | filter:postQuery | orderBy:orderProp:reverse ">
+      <div class="large-6 columns">
+        <span class="label">
+          {{ post.created | fromNow }}
+        </span>
+        <div class="panel">
+          <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+          <p>{{ post.short | limitTo:150 }}...</p>
+          <span ng-repeat="tag in post.tags"><code>{{ tag }}</code></span>
+        </div>
+      </div>
+    </div> 
+  </div>
+  </div>
 </div>

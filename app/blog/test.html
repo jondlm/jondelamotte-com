@@ -115,6 +115,10 @@
     <h1>This is a test markdown blog post</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ex nisi ratione architecto totam sit iusto similique minus ab voluptatem reiciendis aliquam illum? Vel, qui, modi perferendis autem optio officiis!</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, in, veniam, ratione, molestiae quisquam dolore expedita blanditiis dicta enim quod dolorem ipsam praesentium aspernatur nesciunt magnam quas dolores voluptate maiores.</p>
+<div style="text-align:center;">
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/zroyr-Q9f_o" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <h2>Section</h2>
 <ul>
 <li>List Item</li>
@@ -124,12 +128,32 @@
 </ul>
 <pre><code class="lang-javascript"><span class="comment">// This is some javascript</span>
 
-<span class="keyword">var</span> x = <span class="number">10</span>;
-<span class="keyword">var</span> y = x * <span class="number">5</span>;
+<span class="keyword">var</span> name = <span class="string">'jon'</span>;
 
-<span class="keyword">function</span>(num) {
-  <span class="keyword">return</span> num * <span class="number">5</span>;
+<span class="function"><span class="keyword">function</span> <span class="title">coolify</span><span class="params">(person)</span> {</span>
+  <span class="keyword">return</span> person + <span class="string">' is super cool!'</span>;
 }</code></pre>
+<p>Some C# if you please:</p>
+<pre><code class="lang-c#"><span class="comment">// This is some C#</span>
+
+<span class="comment">// Single-dimensional array (numbers).</span>
+<span class="keyword">int</span>[] n1 = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>] {<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>};
+<span class="keyword">int</span>[] n2 = <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>};
+<span class="keyword">int</span>[] n3 = {<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>};
+<span class="comment">// Single-dimensional array (strings).</span>
+<span class="keyword">string</span>[] s1 = <span class="keyword">new</span> <span class="keyword">string</span>[<span class="number">3</span>] {<span class="string">"John"</span>, <span class="string">"Paul"</span>, <span class="string">"Mary"</span>};
+<span class="keyword">string</span>[] s2 = <span class="keyword">new</span> <span class="keyword">string</span>[] {<span class="string">"John"</span>, <span class="string">"Paul"</span>, <span class="string">"Mary"</span>};
+<span class="keyword">string</span>[] s3 = {<span class="string">"John"</span>, <span class="string">"Paul"</span>, <span class="string">"Mary"</span>};
+
+<span class="comment">// Multidimensional array.</span>
+<span class="keyword">int</span>[,] n4 = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">3</span>, <span class="number">2</span>] { {<span class="number">1</span>, <span class="number">2</span>}, {<span class="number">3</span>, <span class="number">4</span>}, {<span class="number">5</span>, <span class="number">6</span>} };
+<span class="keyword">int</span>[,] n5 = <span class="keyword">new</span> <span class="keyword">int</span>[,] { {<span class="number">1</span>, <span class="number">2</span>}, {<span class="number">3</span>, <span class="number">4</span>}, {<span class="number">5</span>, <span class="number">6</span>} };
+<span class="keyword">int</span>[,] n6 = { {<span class="number">1</span>, <span class="number">2</span>}, {<span class="number">3</span>, <span class="number">4</span>}, {<span class="number">5</span>, <span class="number">6</span>} };
+
+<span class="comment">// Jagged array.</span>
+<span class="keyword">int</span>[][] n7 = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>][] { <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">2</span>,<span class="number">4</span>,<span class="number">6</span>}, <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">7</span>,<span class="number">9</span>} };
+<span class="keyword">int</span>[][] n8 = <span class="keyword">new</span> <span class="keyword">int</span>[][] { <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">2</span>,<span class="number">4</span>,<span class="number">6</span>}, <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">7</span>,<span class="number">9</span>} };
+<span class="keyword">int</span>[][] n9 = { <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">2</span>,<span class="number">4</span>,<span class="number">6</span>}, <span class="keyword">new</span> <span class="keyword">int</span>[] {<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">7</span>,<span class="number">9</span>} };</code></pre>
 <p>In line <code>code</code></p>
 <h1>Header</h1>
 <p>And this is a paragraph.</p>

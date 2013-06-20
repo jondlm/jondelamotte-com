@@ -1,0 +1,150 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>doc</title>
+    <style>
+      /*github.com style (c) Vasily Polovnyov <vast@whiteants.net>*/
+      pre code {
+        display: block; padding: 0.5em;
+        color: #333;
+        background: #f8f8ff
+      }
+      pre .comment,
+      pre .template_comment,
+      pre .diff .header,
+      pre .javadoc {
+        color: #998;
+        font-style: italic
+      }
+      pre .keyword,
+      pre .css .rule .keyword,
+      pre .winutils,
+      pre .javascript .title,
+      pre .nginx .title,
+      pre .subst,
+      pre .request,
+      pre .status {
+        color: #333;
+        font-weight: bold
+      }
+      pre .number,
+      pre .hexcolor,
+      pre .ruby .constant {
+        color: #099;
+      }
+      pre .string,
+      pre .tag .value,
+      pre .phpdoc,
+      pre .tex .formula {
+        color: #d14
+      }
+      pre .title,
+      pre .id {
+        color: #900;
+        font-weight: bold
+      }
+      pre .javascript .title,
+      pre .lisp .title,
+      pre .clojure .title,
+      pre .subst {
+        font-weight: normal
+      }
+      pre .class .title,
+      pre .haskell .type,
+      pre .vhdl .literal,
+      pre .tex .command {
+        color: #458;
+        font-weight: bold
+      }
+      pre .tag,
+      pre .tag .title,
+      pre .rules .property,
+      pre .django .tag .keyword {
+        color: #000080;
+        font-weight: normal
+      }
+      pre .attribute,
+      pre .variable,
+      pre .lisp .body {
+        color: #008080
+      }
+      pre .regexp {
+        color: #009926
+      }
+      pre .class {
+        color: #458;
+        font-weight: bold
+      }
+      pre .symbol,
+      pre .ruby .symbol .string,
+      pre .lisp .keyword,
+      pre .tex .special,
+      pre .prompt {
+        color: #990073
+      }
+      pre .built_in,
+      pre .lisp .title,
+      pre .clojure .built_in {
+        color: #0086b3
+      }
+      pre .preprocessor,
+      pre .pi,
+      pre .doctype,
+      pre .shebang,
+      pre .cdata {
+        color: #999;
+        font-weight: bold
+      }
+      pre .deletion {
+        background: #fdd
+      }
+      pre .addition {
+        background: #dfd
+      }
+      pre .diff .change {
+        background: #0086b3
+      }
+      pre .chunk {
+        color: #aaa
+      }
+    </style>
+  </head>
+  <body>  
+    <h1>Modern Web Development Journey</h1>
+<p>About 6 months ago I began a new endeavor. I decided that HTML5 was cool, and I was determined to learn it. At that time, I didn&#39;t realize what HTML5 even meant. Since then, I&#39;ve learned a lot; I&#39;d like to share some of that with you.</p>
+<h3>First Steps</h3>
+<p>My professional background in technology related primarily to data visualization and business intelligence. Those are fancy words for charts and graphs. For the first year and a half of my career, I was engrossed in the Microsoft SQL Server stack. I learned to happily live within the limits those tools imposed. I would frequently have ideas that eventually became dead ends because of tool limitations. I&#39;m not saying that the Microsoft BI tools don&#39;t provide a lot of value, they simply weren&#39;t flexible enough to satisfy my creativity.</p>
+<p>After much frustration, I became determined to learn to use the &quot;modern web&quot; as way to express my data creativity. The first thing I did was refresh my latent knowledge of HTML and CSS. Secondly I dove head first into a lovable, yet quirky, language known as JavaScript. I knew that HTML and CSS are the basic building blocks of the web, but what exactly are they, and how do they relate?</p>
+<h3>HTML</h3>
+<p>HTML defines the <strong>content</strong> of a web page. In a perfect world, the HTML simply tells the web page what elements should be found on the page, how they are arranged hierarchically, and what the contents of those elements are. Stylistic things, like color and font size, shouldn&#39;t (notice I didn&#39;t say <em>can&#39;t</em>) be found in your HTML. It&#39;s also important to note that written within your HTML documents are the links to CSS and JavaScript files.</p>
+<pre><code class="lang-html"><span class="comment">&lt;!-- I'm a comment --&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"poobar"</span>&gt;</span>
+  Ahoy there! I'm HTML. Nice to meet you.
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span></code></pre>
+<h3>CSS</h3>
+<p>CSS files are a way of defining the <strong>style</strong> of your pages in a re-usable manner. CSS isn&#39;t a requirement. It&#39;s possible to put all your styling in your HTML pages. But what about when you want all your headers to be styled the same? You&#39;ll have to copy and paste the style information to each header in every single spot in your HTML where you have a header. Not fun.</p>
+<p>CSS makes life easier by allowing you to rip out all that styling information and put it in a separate file that you simply &quot;hook up&quot; to your HTML pages. Once the link is established, your HTML page automatically uses the CSS to make things pretty and consistent. Don&#39;t be fooled, CSS may be a relatively small language, but it gets complicated really quickly.</p>
+<pre><code class="lang-css"><span class="comment">/* I'm a comment */</span>
+
+<span class="class">.poobar</span> <span class="rules">{
+  <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">20</span>px;</span></span>
+  <span class="rule"><span class="attribute">color</span>:<span class="value"> blue;</span></span>
+<span class="rule">}</span></span></code></pre>
+<h3>JavaScript</h3>
+<p>JavaScript is crazy. It is <strong>not</strong> related to Java. Its real name is ECMAScript, but don&#39;t worry about that, almost no one calls it that.</p>
+<p>For the first few months of learning JS, I felt like my brain was going to explode. There are MANY different styles of writing JS that make it really confusing for a newbie. One of the most interesting aspects of JavaScript is its flexibility. You can define and redefine stuff willy nilly and it usually won&#39;t yell at you. Also, because of its flexibility, people have become very clever at thinking up new, sneaky ways to write code. </p>
+<p>JavaScript pretty much does all the <strong>doing</strong> for web pages. Need to talk to a server and get some data without reloading the page? JavaScript. Need variables? JavaScript. Etc...</p>
+<p>Old browsers do some pretty funky things with JavaScript. Libraries like <code>jQuery</code> mitigate these issues by providing you a consistent way of writing your JavaScript. Personally I&#39;ve chosen to mostly ignore older browsers in the hopes that they will disappear shortly. That&#39;s how it works, right?!</p>
+<pre><code class="lang-javascript"><span class="comment">// I'm a comment</span>
+
+<span class="keyword">var</span> thingy = document.querySelector(<span class="string">'.poobar'</span>);
+thingy.innerText = <span class="string">'Changing the content of the HTML with JavaScript.'</span>;</code></pre>
+<h3>Boom</h3>
+<p>My future posts will be less milk and more meat on these subjects. I suggest <a href="http://www.codecademy.com/">Code Academy</a> as a good place to start learning this stuff.</p>
+<p>// Jon</p>
+
+  </body>
+</html>
