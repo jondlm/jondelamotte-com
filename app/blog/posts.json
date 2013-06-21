@@ -20,6 +20,17 @@
     "short": "Recently I discovered a JavaScript library that changed the way I see dates. Let me tell you about it and show you my favorite features.",
     "link": "#/blog/momentjs-top-5.html",
     "tags": ["javascript","momentjs","dates"]
+  },
+  {
+    "title": "The Setup",
+    "created": null,
+    "author": {
+      "name": "Jon de la Motte",
+      "email": "jondlm@gmail.com"
+    },
+    "short": "There are some applications I couldn't live without as a developer. It's taken me a while to nail down my toolkit, and now I'll share it with you.",
+    "link": "#/blog/the-setup.html",
+    "tags": ["apps","tips"]
   }
 
 ]

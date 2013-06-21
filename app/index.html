@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+
 <html ng-app="jonApp">
 <head>
   <title>Jon de la Motte</title>
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" /> <!-- Testing the maximum scale feature -->
   <meta name="author" content="Jon de la Motte" />
   <meta name="description" content="A personal site for Jon de la Motte" />
 
@@ -20,7 +22,7 @@
     <ul class="title-area">
       <li class="name">
         <h1>
-          <a href="#">
+          <a href="index.html">
             <img id="title" src="img/jondelamotte.png" alt="Jon de la Motte's name in cursive">
           </a>
         </h1>
@@ -42,6 +44,8 @@
     </section>
     
   </nav>
+
+  <!-- Here is where all the pages get swapped out by AngularJS -->
   <div class="row">
     <div class="small-12 columns ng-view"></div>
   </div>

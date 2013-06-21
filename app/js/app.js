@@ -4,7 +4,6 @@ var jonApp = angular.module('jonApp', ['ngResource', 'dateFilters']);
 
 jonApp.config(function ($routeProvider) {
 
-  // TODO: Figure out how to pass in the link to blog post as parameter
   $routeProvider
     .when('/home', {
       controller: 'IndexCtrl',

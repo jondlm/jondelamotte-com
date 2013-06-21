@@ -111,7 +111,7 @@
       }
     </style>
   </head>
-  <body>  
+  <body>
     <h1>A Moment in Time</h1>
 <p>I recently discovered a JavaScript library that changed the way I see dates. A few weeks ago I was trying to find a simplified way to work with dates in JavaScript, my searching led to <a href="http://momentjs.com/">Moment.js</a>, and one of features had a profound effect on me: simple, relative dates. More on that later. Moment.js allows you to do pretty much everything you ever wanted when working with dates in JavaScript. You can do things like:</p>
 <ul>
@@ -123,23 +123,30 @@
 </ul>
 <p>Generally when I&#39;m working on a project that has some date to display, I simply list out the entire date and time stamp. The problem with this approach is that it doesn&#39;t give the viewer much context. 80% of the time when I&#39;m looking at a date, I want to know what its relation is to me, right now. Moment.js helped me see the value of doing this kind of formating. It also made it dead freakin&#39; simple.</p>
 <h2>Top 5 Moment.js Functions</h2>
-<p>Moment.js&#39; functions typically return either a string or an object that contains the date you are working with, and a bunch of metadata about that date. That object can be recognized and piped through most Moment.js functions. The <code>_d</code> property on that object is the JavaScript date literal. If you simply call <code>moment()</code> this will return a moment.js for the current date and time, like <code>new Date()</code>.</p>
-<h3>5: Date Parsing</h3>
-<pre><code class="lang-javascript">moment(<span class="string">'2013-01-01'</span>, <span class="string">'YYYY-MM-DD'</span>)
-moment(<span class="string">'01/22/2013 18:45'</span>, <span class="string">'MM/DD/YYYY HH:mm'</span>)</code></pre>
-<h3>4: Adding to Dates</h3>
-<pre><code class="lang-javascript">moment().add(<span class="string">'days'</span>, <span class="number">10</span>)
-moment().subtract(<span class="string">'weeks'</span>, <span class="number">5</span>)</code></pre>
-<h3>3: Humanizing Dates</h3>
-<pre><code class="lang-javascript">moment().calendar() <span class="comment">// -&gt; 'Today at 9:03 AM'</span>
-moment().subtract(<span class="string">'days'</span>, <span class="number">2</span>).calendar() <span class="comment">// -&gt; 'last Tuesday at 8:57 PM'</span></code></pre>
-<h3>2: Start/End Of</h3>
-<pre><code class="lang-javascript">moment().startOf(<span class="string">'day'</span>)
-moment().endOf(<span class="string">'month'</span>)
-moment().endOf(<span class="string">'week'</span>)</code></pre>
-<h3>1: From Now</h3>
-<pre><code class="lang-javascript">moment(<span class="string">'2013-01-01'</span>).fromNow() <span class="comment">// -&gt; '6 months ago'</span>
-moment().add(<span class="string">'minutes'</span>, <span class="number">35</span>).fromNow() <span class="comment">// -&gt; 'in 35 minutes'</span></code></pre>
+<p>Moment.js&#39; functions typically return either a string or an object that contains the date you are working with, and a bunch of metadata about that date. That object can be recognized and piped through most Moment.js functions. The <code>_d</code> property on that object is the JavaScript date literal. If you simply call <code>moment()</code> this will return a moment.js for the current date and time, like <code>new Date()</code>.  </p>
+<h4>Date Parsing</h4>
+<pre><code class="lang-javascript">moment(<span class="string">'2013-01-01'</span>, <span class="string">'YYYY-MM-DD'</span>);
+moment(<span class="string">'01/22/2013 18:45'</span>, <span class="string">'MM/DD/YYYY HH:mm'</span>);
+<span class="keyword">var</span> myMomentDate = moment(<span class="string">'2013-01-01'</span>, <span class="string">'YYYY-MM-DD'</span>);</code></pre>
+<p>This is especially useful when you are getting strangely formatted dates from various sources. Once you have your date as a <code>moment</code> object, you&#39;re golden.  </p>
+<h4>Adding to Dates</h4>
+<pre><code class="lang-javascript">moment().add(<span class="string">'days'</span>, <span class="number">10</span>);
+moment().subtract(<span class="string">'weeks'</span>, <span class="number">5</span>);</code></pre>
+<p>I&#39;ve seen this kind of date formatting in various other programming languages, but this is my favorite syntax by far.  </p>
+<h4>Humanizing Dates</h4>
+<pre><code class="lang-javascript">moment().calendar(); <span class="comment">// -&gt; 'Today at 9:03 AM'</span>
+moment().subtract(<span class="string">'days'</span>, <span class="number">2</span>).calendar(); <span class="comment">// -&gt; 'last Tuesday at 8:57 PM'</span></code></pre>
+<p>Now we&#39;re really cookin! This auto formatting falls somewhere between date-time literals and the <code>fromNow()</code> function, in terms of verbosity.  </p>
+<h4>Start/End Of</h4>
+<pre><code class="lang-javascript">moment().startOf(<span class="string">'day'</span>);
+moment().endOf(<span class="string">'month'</span>);
+moment().endOf(<span class="string">'week'</span>);</code></pre>
+<p>More stuff you would hope to easily do with dates. Bring on the joy.  </p>
+<h4>From Now</h4>
+<pre><code class="lang-javascript">moment(<span class="string">'2013-01-01'</span>).fromNow(); <span class="comment">// -&gt; '6 months ago'</span>
+moment().add(<span class="string">'minutes'</span>, <span class="number">35</span>).fromNow(); <span class="comment">// -&gt; 'in 35 minutes'</span></code></pre>
+<p>This is my favorite feature. I&#39;ve come to believe that this is the fastest way to consume a date. It gives your viewer context that&#39;s instantly meaningful. This is the one that got me thinking about how awesome simple, relative dates can be. Moment.js makes it really, really easy. So, in the words of <a href="http://en.wikipedia.org/wiki/Go_Do">Jonsi</a>, &quot;go do!&quot;</p>
+<p>// Jon</p>
 
   </body>
 </html>
