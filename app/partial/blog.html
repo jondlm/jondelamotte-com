@@ -24,10 +24,12 @@
         <span class="label">
           {{ post.created | fromNow }}
         </span>
-        <div class="panel">
+        <div class="panel post-panel">
           <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
-          <p>{{ post.short | limitTo:150 }}...</p>
-          <span ng-repeat="tag in post.tags"><code>{{ tag }}</code></span>
+          <p>{{ post.short | limitTo:250 }}</p>
+          <div>
+            <span ng-repeat="tag in post.tags"><code>{{ tag }}</code></span>
+          </div>
         </div>
       </div>
     </div> 

@@ -1120,6 +1120,7 @@ small {
   color: #7f0a0c; }
 */
 code {
+  font-size: 0.9em;
   margin: 0 2px;
   padding: 0px 5px;
   border: 1px solid #ddd;

@@ -7,6 +7,17 @@ body {
 .flex-img {
   margin-left: 10px;
 }
+.post-panel {
+  min-height: 300px;
+  position: relative;
+}
+.post-panel div {
+  position: absolute;
+  bottom: 20px;
+}
+pre code { /* Fix for small screen code overflow */
+  overflow: auto;
+}
 /****************************/
 /* FOUNDATION MEDIA QUERIES */
 /****************************/
