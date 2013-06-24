@@ -16,8 +16,9 @@ body {
   bottom: 20px;
 }
 pre { /* Fix for small screen code overflow */
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
 }
 /****************************/
 /* FOUNDATION MEDIA QUERIES */
