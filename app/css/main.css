@@ -15,8 +15,9 @@ body {
   position: absolute;
   bottom: 20px;
 }
-pre code { /* Fix for small screen code overflow */
-  overflow: auto;
+pre { /* Fix for small screen code overflow */
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 /****************************/
 /* FOUNDATION MEDIA QUERIES */
@@ -27,6 +28,7 @@ pre code { /* Fix for small screen code overflow */
 @media only screen and (max-width: 767px) { /* Phones */
   .flex-img { width: 110px; }
   #title { width: 120px; margin-top: 14px; }
+  .post-panel{ min-height: initial; }
 }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */

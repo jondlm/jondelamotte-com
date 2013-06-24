@@ -2,26 +2,27 @@
 
 jonApp.controller('IndexCtrl', IndexCtrl);
 
-function IndexCtrl($scope, lastFmFactory, $http, $routeParams) {
-  $scope.hello = 'Hey there friend.';
+function IndexCtrl($scope, lastFmFactory, $http, $location) {
   $scope.posts = [];
   $scope.orderProp = 'created';
   $scope.reverse = true;
 
-  $scope
-
   init();
 
   function init() {
-    $scope.songs = lastFmFactory.query();
+    console.dir($location.path());
+    if ($location.path() === '/music') {
+      $scope.songs = lastFmFactory.query();
+    }
 
-    $http.get('blog/posts.json')
-      .success(function(data){
-        $scope.posts = data;
-      })
-      .error(function(wtfIsThis){
-        console.log(wtfIsThis);
-      });
+    if($location.path() === '/blog') {
+      $http.get('blog/posts.json')
+        .success(function(data){
+          $scope.posts = data;
+        })
+        .error(function(wtfIsThis){
+          console.log(wtfIsThis);
+        });
+    }
   }
-  
 }
