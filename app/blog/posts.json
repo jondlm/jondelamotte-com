@@ -31,6 +31,17 @@
     "short": "There are some applications I couldn't live without as a developer. It's taken me a while to nail down my toolkit, and now I'll share it with you.",
     "link": "#/blog/the-setup.html",
     "tags": ["apps","tips"]
+  },
+  {
+    "title": "Nearing Real-time",
+    "created": 1372460732451,
+    "author": {
+      "name": "Jon de la Motte",
+      "email": "jondlm@gmail.com"
+    },
+    "short": "The demand for high speed web applications is on the rise. Learn about one of the main technologies that is making it possible.",
+    "link": "#/blog/websockets.html",
+    "tags": ["websockets","real-time"]
   }
 
 ]
