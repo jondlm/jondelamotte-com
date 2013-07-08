@@ -42,6 +42,17 @@
     "short": "The demand for high speed web applications is on the rise. Learn about one of the main technologies that is making it possible.",
     "link": "#/blog/websockets.html",
     "tags": ["websockets","real-time"]
+  },
+  {
+    "title": "Favorite SublimeText Packages",
+    "created": 1373316727428,
+    "author": {
+      "name": "Jon de la Motte",
+      "email": "jondlm@gmail.com"
+    },
+    "short": "SublimeText is a popular text and code editor. Come see what packages make it shine even brighter.",
+    "link": "#/blog/sublime-packages.html",
+    "tags": ["tips","apps","sublimetext2"]
   }
 
 ]

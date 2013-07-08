@@ -1,0 +1,161 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>doc</title>
+    <style>
+      /*github.com style (c) Vasily Polovnyov <vast@whiteants.net>*/
+      pre code {
+        display: block; padding: 0.5em;
+        color: #333;
+        background: #f8f8ff
+      }
+      pre .comment,
+      pre .template_comment,
+      pre .diff .header,
+      pre .javadoc {
+        color: #998;
+        font-style: italic
+      }
+      pre .keyword,
+      pre .css .rule .keyword,
+      pre .winutils,
+      pre .javascript .title,
+      pre .nginx .title,
+      pre .subst,
+      pre .request,
+      pre .status {
+        color: #333;
+        font-weight: bold
+      }
+      pre .number,
+      pre .hexcolor,
+      pre .ruby .constant {
+        color: #099;
+      }
+      pre .string,
+      pre .tag .value,
+      pre .phpdoc,
+      pre .tex .formula {
+        color: #d14
+      }
+      pre .title,
+      pre .id {
+        color: #900;
+        font-weight: bold
+      }
+      pre .javascript .title,
+      pre .lisp .title,
+      pre .clojure .title,
+      pre .subst {
+        font-weight: normal
+      }
+      pre .class .title,
+      pre .haskell .type,
+      pre .vhdl .literal,
+      pre .tex .command {
+        color: #458;
+        font-weight: bold
+      }
+      pre .tag,
+      pre .tag .title,
+      pre .rules .property,
+      pre .django .tag .keyword {
+        color: #000080;
+        font-weight: normal
+      }
+      pre .attribute,
+      pre .variable,
+      pre .lisp .body {
+        color: #008080
+      }
+      pre .regexp {
+        color: #009926
+      }
+      pre .class {
+        color: #458;
+        font-weight: bold
+      }
+      pre .symbol,
+      pre .ruby .symbol .string,
+      pre .lisp .keyword,
+      pre .tex .special,
+      pre .prompt {
+        color: #990073
+      }
+      pre .built_in,
+      pre .lisp .title,
+      pre .clojure .built_in {
+        color: #0086b3
+      }
+      pre .preprocessor,
+      pre .pi,
+      pre .doctype,
+      pre .shebang,
+      pre .cdata {
+        color: #999;
+        font-weight: bold
+      }
+      pre .deletion {
+        background: #fdd
+      }
+      pre .addition {
+        background: #dfd
+      }
+      pre .diff .change {
+        background: #0086b3
+      }
+      pre .chunk {
+        color: #aaa
+      }
+    </style>
+  </head>
+  <body>  
+    <h1>Favorite SublimeText Packages</h1>
+<p>First off, if you don&#39;t use SublimeText, <a href="http://sublimetext.com">get it</a>. It&#39;s by far the best text editor I&#39;ve encountered. I use it as a general purpose editor and as a place to write code. SublimeText rocks on its own, but it <strong>really</strong> starts to shine once you install <a href="http://wbond.net/sublime_packages/package_control#Features">Will Bond&#39;s Package Control</a>. See my <a href="http://stackoverflow.com/questions/15819354/how-to-enable-code-hinting-for-css-in-sublime-text-2/15819607#15819607">StackOverflow post</a> for instructions on installing Package Control.</p>
+<p>Once you have Package Control installed, getting new packages, that augment SublimeText, is a snap. This article contains my favorite packages, and reasons why I use and love them. Links are <em>not</em> included because once you have Package Control, you don&#39;t need links, just the package names; it handles all the installing for you.</p>
+<h2>Alignment</h2>
+<p>Alignment helps me keep things tidy when I am writing code. I am especially fond if it when I need to write SQL queries. Here is an example of what it can do in few keystrokes:</p>
+<pre><code class="lang-sql"><span class="operator"><span class="keyword">SELECT</span>
+  FirstColumn <span class="keyword">as</span> alias1,
+  SecondColumn <span class="keyword">as</span> alias2,
+  ThirdColumn <span class="keyword">as</span> alias3
+<span class="keyword">FROM</span> <span class="keyword">Table</span></code></pre>
+<p>to</p>
+<pre><code class="lang-sql"><span class="operator"><span class="keyword">SELECT</span>
+  FirstColumn   <span class="keyword">as</span> alias1,
+  SecondColumn  <span class="keyword">as</span> alias2,
+  ThirdColumn   <span class="keyword">as</span> alias3
+<span class="keyword">FROM</span> <span class="keyword">Table</span></code></pre>
+<h2>DocBlokr</h2>
+<p>Makes formatting comments a breeze.</p>
+<pre><code class="lang-javascript"><span class="comment">///////////////////////////</span>
+<span class="comment">// This is comment block //</span>
+<span class="comment">///////////////////////////</span></code></pre>
+<h2>Emmet</h2>
+<p>Emmet is the newest iteration of a thing previously called Zen Coding. It makes writing HTML really nice.</p>
+<pre><code class="lang-html"><span class="attribute">ul&gt;li*5</code></pre>
+<p>to </p>
+<pre><code><span class="tag">&lt;<span class="title">ul</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">ul</span>&gt;</span></code></pre>
+<h2>EasyMotion</h2>
+<p>EasyMotion is hard to explain, it should rather been seen, <a href="https://github.com/tednaleid/sublime-EasyMotion">here</a>. It basically helps you move your cursor somewhere on the page, super fast.</p>
+<h2>Markdown Preview</h2>
+<p>I am using this right now! It allows you to preview markdown in your browser. It even works with LiveReload, a browser plugin, to refresh on save.</p>
+<h2>LiveReload</h2>
+<p>This one does just what you think it might, reloads HTML pages without having to refresh. On the backend, it&#39;s using websockets. I&#39;ve had some trouble with this one on Windows, but I hear it works swell on Macs.</p>
+<h2>SublimeLinter</h2>
+<p>This package will lint your code as you write it. In other words, it will give you code suggestions and validation. Very handy when working in dynamic languages like JavasScript. Configuring this one with Node.js takes a small amount of work up front.</p>
+<h2>SidebarEnhancements</h2>
+<p>Adds a bunch of functionality to the side bar of sublime. A must have.</p>
+<p><br> Thanks for reading. Have a lovely <code>dayOrNight</code>.</p>
+<p>//Jon</p>
+
+  </body>
+</html>
