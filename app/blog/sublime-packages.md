@@ -6,7 +6,7 @@ Once you have Package Control installed, getting new packages, that augment Subl
 
 ## Alignment
 
-Alignment helps me keep things tidy when I am writing code. I am especially fond if it when I need to write SQL queries. Here is an example of what it can do in few keystrokes:
+Alignment helps me keep things tidy when I am writing code. I am especially fond of it when I need to write SQL queries, or other strangely aligned code. Here is an example of what it can do in few keystrokes:
 
 ```sql
 SELECT
