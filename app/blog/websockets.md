@@ -31,6 +31,6 @@ As you can see, once this "phone call" is established, it allows the server to s
 
 ## But WHY?
 
-Websockets will dramatically increase the speed and efficiency of browser based stuff like real-time dashboards, chat clients, mult-player games, and much more. Websockets are already implemented on "all" major browsers. Visit this [demo](http://html5demos.com/web-socket) to see if your browser can connect using websockets. 
+Websockets will dramatically increase the speed and efficiency of browser based stuff like real-time dashboards, chat clients, multi-player games, and much more. Websockets are already implemented on "all" major browsers. Visit this [demo](http://html5demos.com/web-socket) to see if your browser can connect using websockets. 
 
 // Jon
