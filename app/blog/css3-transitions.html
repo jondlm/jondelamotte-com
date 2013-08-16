@@ -1,0 +1,193 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>doc</title>
+    <style>
+      /*github.com style (c) Vasily Polovnyov <vast@whiteants.net>*/
+      pre code {
+        display: block; padding: 0.5em;
+        color: #333;
+        background: #f8f8ff
+      }
+      pre .comment,
+      pre .template_comment,
+      pre .diff .header,
+      pre .javadoc {
+        color: #998;
+        font-style: italic
+      }
+      pre .keyword,
+      pre .css .rule .keyword,
+      pre .winutils,
+      pre .javascript .title,
+      pre .nginx .title,
+      pre .subst,
+      pre .request,
+      pre .status {
+        color: #333;
+        font-weight: bold
+      }
+      pre .number,
+      pre .hexcolor,
+      pre .ruby .constant {
+        color: #099;
+      }
+      pre .string,
+      pre .tag .value,
+      pre .phpdoc,
+      pre .tex .formula {
+        color: #d14
+      }
+      pre .title,
+      pre .id {
+        color: #900;
+        font-weight: bold
+      }
+      pre .javascript .title,
+      pre .lisp .title,
+      pre .clojure .title,
+      pre .subst {
+        font-weight: normal
+      }
+      pre .class .title,
+      pre .haskell .type,
+      pre .vhdl .literal,
+      pre .tex .command {
+        color: #458;
+        font-weight: bold
+      }
+      pre .tag,
+      pre .tag .title,
+      pre .rules .property,
+      pre .django .tag .keyword {
+        color: #000080;
+        font-weight: normal
+      }
+      pre .attribute,
+      pre .variable,
+      pre .lisp .body {
+        color: #008080
+      }
+      pre .regexp {
+        color: #009926
+      }
+      pre .class {
+        color: #458;
+        font-weight: bold
+      }
+      pre .symbol,
+      pre .ruby .symbol .string,
+      pre .lisp .keyword,
+      pre .tex .special,
+      pre .prompt {
+        color: #990073
+      }
+      pre .built_in,
+      pre .lisp .title,
+      pre .clojure .built_in {
+        color: #0086b3
+      }
+      pre .preprocessor,
+      pre .pi,
+      pre .doctype,
+      pre .shebang,
+      pre .cdata {
+        color: #999;
+        font-weight: bold
+      }
+      pre .deletion {
+        background: #fdd
+      }
+      pre .addition {
+        background: #dfd
+      }
+      pre .diff .change {
+        background: #0086b3
+      }
+      pre .chunk {
+        color: #aaa
+      }
+      #kittydiv {
+        min-height: 300px;
+      }
+      #kitty{
+        transition-property: width height;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+      }
+      #kitty:hover {
+        height: 200px;
+        width: 200px;
+      }
+      #kittydiv2 {
+        min-height: 300px;
+      }
+      #kitty2 {
+        transition-property: width height;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        width: 300px;
+        height: 300px;
+      }
+      #kitty2:hover {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>  
+    <h1>CSS3 Transitions and Images</h1>
+<p>If used tastefully, CSS transitions and animations are a great way to spice up modern web sites. Today I learned about one of the pitfalls. It&#39;s a subtle nuance, but once you know it you should be ready to pimp your site.</p>
+<p>Transitions work mostly like you think they would. Here&#39;s my general work flow:</p>
+<ol>
+<li>Pick a CSS property, or properties. There is <a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_animated_properties">a list</a> Mozilla maintains of properties are animatable.</li>
+<li>Pick which timing function you want the transition to use. You&#39;ll probably want either <code>ease</code> or <code>linear</code>.</li>
+<li>Pick how long you want the transition to take written with an <code>s</code> suffix meaning &quot;seconds&quot;.</li>
+</ol>
+<pre><code><span class="attribute">transition-property</span>: <span class="string">width;</span>
+<span class="attribute">transition-timing-function</span>: <span class="string">ease;</span>
+<span class="attribute">transition-delay</span>: <span class="string">0.5s</span></code></pre>
+<h2>The Hiccup</h2>
+<p>All that seemed well and good, but I found one caveat. If you are animating <code>width</code> for instance, you <strong>must</strong> make sure the element has a pre-defined <code>width</code> before you animate it to something else, otherwise browsers can do some funky things. I&#39;ll show you a bad example followed by a good one. I&#39;m leaving out vendor prefixes for brevity. Tip: hover over the images to see the example. I hope you aren&#39;t on a mobile device...</p>
+<h3>Wrong</h3>
+<pre><code class="lang-css"><span class="tag">img</span> <span class="rules">{
+  <span class="rule"><span class="attribute">transition-property</span>:<span class="value"> width height;</span></span>
+  <span class="rule"><span class="attribute">transition-timing-function</span>:<span class="value"> ease;</span></span>
+  <span class="rule"><span class="attribute">transition-duration</span>:<span class="value"> <span class="number">1</span>s;</span></span>
+<span class="rule">}</span></span>
+
+<span class="tag">img</span><span class="pseudo">:hover</span> <span class="rules">{
+  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">200</span>px;</span></span>
+  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">200</span>px
+}</span></span></span></code></pre>
+<div id="kittydiv">
+  <img id="kitty" src='http://placekitten.com/300/300'>
+</div>
+
+<p>In chrome, the effect is startling. The image disappears into a tiny dot before reappearing. Strange.</p>
+<h3>Right</h3>
+<pre><code class="lang-css"><span class="tag">img</span> <span class="rules">{
+  <span class="rule"><span class="attribute">transition-property</span>:<span class="value"> width height;</span></span>
+  <span class="rule"><span class="attribute">transition-timing-function</span>:<span class="value"> ease;</span></span>
+  <span class="rule"><span class="attribute">transition-duration</span>:<span class="value"> <span class="number">1</span>s;</span></span>
+  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">300</span>px;</span></span>
+  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">300</span>px;</span></span>
+<span class="rule">}</span></span>
+
+<span class="tag">img</span><span class="pseudo">:hover</span> <span class="rules">{
+  <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">200</span>px;</span></span>
+  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">200</span>px;</span></span>
+<span class="rule">}</span></span></code></pre>
+<div id="kittydiv2">
+  <img id="kitty2" src='http://placekitten.com/300/300'>
+</div>
+
+<p>The solution is to make sure you explicitly define a <code>width</code> and <code>height</code> before you change them.</p>
+<p>Happy trails.</p>
+<p>// Jon</p>
+
+
+  </body>
+</html>

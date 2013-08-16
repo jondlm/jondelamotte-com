@@ -40,6 +40,7 @@ module.exports = function(grunt) {
         options: {
           markdownOptions: {
             gfm: true,
+            sanitize: false,
             highlight: 'manual'
           }
         }

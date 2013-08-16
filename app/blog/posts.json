@@ -53,6 +53,18 @@
     "short": "SublimeText is a popular text and code editor. Come see what packages make it shine even brighter.",
     "link": "#/blog/sublime-packages.html",
     "tags": ["tips","apps","sublimetext2"]
+  },
+  {
+    "title": "CSS3 Transitions and Images",
+    "created": 1376599582873,
+    "author": {
+      "name": "Jon de la Motte",
+      "email": "jondlm@gmail.com"
+    },
+    "short": "Learn about a mistake I ran into when first using CSS transitions",
+    "link": "#/blog/css3-transitions.html",
+    "tags": ["tips","css","animation"]
   }
+  
 
 ]
