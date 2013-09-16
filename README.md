@@ -4,4 +4,4 @@ This repo contains the source code for my [website](http://jondelamotte.com). Th
 
 ## Grunt
 
-I am using grunt tasks to minify most of the JavaScript and to process the markdown blog posts into HTML.
+I am using grunt tasks to minify most of the JavaScript and to process the markdown blog posts into HTML...
