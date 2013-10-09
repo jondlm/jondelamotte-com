@@ -1,5 +1,16 @@
 [
   {
+    "title": "Introductory Markdown Tutorial",
+    "created": 1381331319146,
+    "author": {
+      "name": "Jon de la Motte",
+      "email": "jondlm@gmail.com"
+    },
+    "short": "What the heck is Markdown? How the frick can I just write stuff in it? Find some answers here!",
+    "link": "#/blog/markdown-tutorial.html",
+    "tags": ["markdown","content","blog-writing"]
+  },
+  {
     "title": "Modern Web Development Journey",
     "created": 1371764059135,
     "author": {
