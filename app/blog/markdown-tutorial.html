@@ -1,0 +1,259 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>doc</title>
+    <style>
+      /*github.com style (c) Vasily Polovnyov <vast@whiteants.net>*/
+      pre code {
+        display: block; padding: 0.5em;
+        color: #333;
+        background: #f8f8ff
+      }
+      pre .comment,
+      pre .template_comment,
+      pre .diff .header,
+      pre .javadoc {
+        color: #998;
+        font-style: italic
+      }
+      pre .keyword,
+      pre .css .rule .keyword,
+      pre .winutils,
+      pre .javascript .title,
+      pre .nginx .title,
+      pre .subst,
+      pre .request,
+      pre .status {
+        color: #333;
+        font-weight: bold
+      }
+      pre .number,
+      pre .hexcolor,
+      pre .ruby .constant {
+        color: #099;
+      }
+      pre .string,
+      pre .tag .value,
+      pre .phpdoc,
+      pre .tex .formula {
+        color: #d14
+      }
+      pre .title,
+      pre .id {
+        color: #900;
+        font-weight: bold
+      }
+      pre .javascript .title,
+      pre .lisp .title,
+      pre .clojure .title,
+      pre .subst {
+        font-weight: normal
+      }
+      pre .class .title,
+      pre .haskell .type,
+      pre .vhdl .literal,
+      pre .tex .command {
+        color: #458;
+        font-weight: bold
+      }
+      pre .tag,
+      pre .tag .title,
+      pre .rules .property,
+      pre .django .tag .keyword {
+        color: #000080;
+        font-weight: normal
+      }
+      pre .attribute,
+      pre .variable,
+      pre .lisp .body {
+        color: #008080
+      }
+      pre .regexp {
+        color: #009926
+      }
+      pre .class {
+        color: #458;
+        font-weight: bold
+      }
+      pre .symbol,
+      pre .ruby .symbol .string,
+      pre .lisp .keyword,
+      pre .tex .special,
+      pre .prompt {
+        color: #990073
+      }
+      pre .built_in,
+      pre .lisp .title,
+      pre .clojure .built_in {
+        color: #0086b3
+      }
+      pre .preprocessor,
+      pre .pi,
+      pre .doctype,
+      pre .shebang,
+      pre .cdata {
+        color: #999;
+        font-weight: bold
+      }
+      pre .deletion {
+        background: #fdd
+      }
+      pre .addition {
+        background: #dfd
+      }
+      pre .diff .change {
+        background: #0086b3
+      }
+      pre .chunk {
+        color: #aaa
+      }
+    </style>
+  </head>
+  <body>  
+    <h1>Markdown Tutorial</h1>
+<p>Markdown is a way of writing text that gets automatically transformed into
+websites. Simply put, Markdown is the best way to write content for the
+Internet. There is very small learning curve, and once you get it, it&#39;ll enable
+you to get your thoughts down without worrying about styling. Have you ever been
+in writing in <em>Word</em> and had the indentation for bulleted lists go wonky on
+you? Have you nearly pulled your hair out? I have, and that doesn&#39;t happen with
+Markdown.</p>
+<h2>Headers</h2>
+<p>Headers should be on their own line and start with the <code>#</code> symbol. </p>
+<p>You write:</p>
+<pre><code><span class="preprocessor"># Header 1</span>
+<span class="preprocessor">## Header 2</span>
+<span class="preprocessor">### Header 3</span>
+<span class="preprocessor">#### Header 4</span>
+<span class="preprocessor">##### Header 5</span></code></pre>
+<p>And this comes out:</p>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h2>Paragraphs</h2>
+<p>Paragraphs work just like you probably expect. They are simply just text
+surrounded by whitespace. There&#39;s plenty of whitespace in markdown, embrace it.</p>
+<h2>Links</h2>
+<p>You write:</p>
+<pre><code>Here is a Markdown link to <span class="link_label">[Google]</span>(<span class="link_url">http://google.com</span>).</code></pre>
+<p>And this comes out:</p>
+<p>Here is a Markdown link to <a href="http://google.com">Google</a>.</p>
+<h2>Bold, italics, and inline code</h2>
+<p>Instead of pushing a button on the toolbar, like in <em>Word</em>, you simply put a few
+extra characters around a word or words.</p>
+<p>You write:</p>
+<pre><code>Now some inline markup like _italics<span class="number">_</span>,  <span class="variable">**</span>bold<span class="variable">**</span>, <span class="keyword">and</span> <span class="string">`code()`</span>.</code></pre>
+<p>And this comes out:</p>
+<p>Now some inline markup like <em>italics</em>,  <strong>bold</strong>, and <code>code()</code>.</p>
+<h2>Images</h2>
+<p>Pictures are inserted similarly to links. You just add a <code>!</code> before them. The
+images need to be available via a URL. Just like any image you ever see online.</p>
+<p>On the actual blog post page, there will be a lightbox effect autmatically
+applied to all your images.</p>
+<p>You write:</p>
+<pre><code>!<span class="link_label">[picture alt]</span>(<span class="link_url">http://placekitten.com/500 "Hover text"</span>)</code></pre>
+<p>And this comes out:</p>
+<p><img src="http://placekitten.com/500" alt="picture alt" title="Hover text"></p>
+<h2>Blockquotes</h2>
+<p>Block quotes are useful when... quoting someone. They are lines of text that
+start with the <code>&gt;</code> character.</p>
+<p>You write:</p>
+<pre><code>&gt; Blockquotes are like quoted text <span class="keyword">in</span> email replies
+&gt;&gt; And, they can <span class="keyword">be</span> nested</code></pre>
+<p>And this comes out:</p>
+<blockquote>
+<p>Blockquotes are like quoted text in email replies</p>
+<blockquote>
+<p>And, they can be nested</p>
+</blockquote>
+</blockquote>
+<h2>Lists</h2>
+<h3>Bulleted lists</h3>
+<p>You write:</p>
+<pre><code><span class="literal">-</span> <span class="comment">Bullet</span> <span class="comment">lists</span> <span class="comment">are</span> <span class="comment">easy</span> <span class="comment">too</span>
+<span class="literal">-</span> <span class="comment">Another</span> <span class="comment">one</span>
+<span class="literal">-</span> <span class="comment">Another</span> <span class="comment">one</code></pre>
+<p>And this comes out:</p>
+<ul>
+<li>Bullet lists are easy too</li>
+<li>Another one</li>
+<li>Another one</li>
+</ul>
+<h3>Numbered lists</h3>
+<p>You write:</p>
+<pre><code><span class="number">1.</span> A numbered <span class="type">list</span>
+<span class="number">2.</span> Which <span class="keyword">is</span> numbered
+<span class="number">3.</span> With periods <span class="keyword">and</span> a <span class="constant">space</span>
+<span class="number">1.</span> The order <span class="keyword">of</span> <span class="keyword">the</span> numbers doesn't matter</code></pre>
+<p>And this comes out:</p>
+<ol>
+<li>A numbered list</li>
+<li>Which is numbered</li>
+<li>With periods and a space</li>
+<li>The order of the numbers doesn&#39;t matter</li>
+</ol>
+<h2>Code formatting</h2>
+<p>When you are writing a post and want to differentiate that some text is code,
+you can either do that <code>inline</code> or as a block.</p>
+<h3>Inline</h3>
+<p>You write:</p>
+<pre><code>You can <span class="keyword">get</span> <span class="keyword">the</span> square root <span class="keyword">of</span> a <span class="type">number</span> <span class="keyword">with</span> <span class="keyword">the</span> `sqrt()` function</code></pre>
+<p>And this comes out:</p>
+<p>You can get the square root of a number with the <code>sqrt()</code> function</p>
+<h3>Block</h3>
+<p>You write:</p>
+<pre><code>`<span class="javascript"></span>``<span class="javascript">
+<span class="function"><span class="keyword">function</span> <span class="title">sqrt</span><span class="params">(number)</span> {</span>
+  <span class="keyword">return</span> Math.pow(number, <span class="number">0.5</span>);
+}
+</span>``<span class="javascript"></span>`</code></pre>
+<p>And this comes out:</p>
+<pre><code><span class="function"><span class="keyword">function</span> <span class="title">sqrt</span><span class="params">(number)</span> {</span>
+  <span class="keyword">return</span> <span class="transposed_variable">Math.</span>pow(number, <span class="number">0.5</span>);
+}</code></pre>
+<h2>Horizontal rules</h2>
+<p>You write:</p>
+<pre><code><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span></code></pre>
+<p>And this comes out:</p>
+<hr>
+<h2>Tables</h2>
+<p>Tables are more advanced. The spacing doesn&#39;t matter so much as the characters.
+I think an example explains this best.</p>
+<p>You write:</p>
+<pre><code> <span class="comment">|</span> <span class="comment">Header</span> <span class="comment">|</span> <span class="comment">Header</span> <span class="comment">|</span> <span class="comment">Right</span> <span class="comment">Aligned</span> <span class="comment">|</span>
+ <span class="comment">|</span> <span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span> <span class="comment">|</span> <span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span> <span class="comment">|</span> <span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="comment">:</span> <span class="comment">|</span>
+ <span class="comment">|</span> <span class="comment">Cell</span>   <span class="comment">|</span> <span class="comment">Cell</span>   <span class="comment">|</span> <span class="comment">$10</span>           <span class="comment">|</span>
+ <span class="comment">|</span> <span class="comment">Cell</span>   <span class="comment">|</span> <span class="comment">Cell</span>   <span class="comment">|</span> <span class="comment">$20</span>           <span class="comment">|</code></pre>
+<p>And this comes out:</p>
+<table>
+<thead>
+<tr>
+<th>Header</th>
+<th>Header</th>
+<th align="right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td align="right">$10</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td align="right">$20</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Outer pipes <code>|</code> on tables are optional</li>
+<li>Colons used for alignment (right versus left)</li>
+</ul>
+
+  </body>
+</html>
